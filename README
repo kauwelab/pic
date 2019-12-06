@@ -1,0 +1,65 @@
+#########################
+
+Calculating the Mutual Information between genes
+mutualInfo.py
+Created by: Katrisa Ward (Bennion)
+Email: katrisa14@gmail.com
+
+#########################
+
+mutualInfo calculates the mutual information between positions on two differnt genes. 
+It uses protein fasta files with MSA's of several species, each file containing exactly the same list of species, 
+to determine the mutual information between the two genes. A CSV of values and a heatmap are both provided.
+
+#########################
+
+ARGUMENT OPTIONS
+
+mutualInfo requires 4 user inputs:
+ -file1:			INPUT fasta file with MSA's of the first gene. Must be a fasta file, and sequences must be aligned
+ -gene1:			the name of the first gene
+ -file2:			INPUT fasta file with MSA's of the second gene. Same restrictions apply as file1
+ -gene2:			the name of the second gene
+
+Optional Arguments:
+ --color 			[-c] the matplotlib color scheme name for the heatmap. Options include "viridis", "inferno", "plasma", "magma", "greys", "purples"
+ 				"blues", "Greens", "Oranges", "Reds", "YlOrBr", "YlOrRd", "OrRd", "PuRd", "RdPu", "BuPu", "GnBu", "PuBu", "YlGnBu", "PuBuGn", 
+				"BuGn", "YlGn", "binary", "gist_yarg", "gist_gray", "bone", "pink", "gray", "spring", "summer", "autumn", "winter", "winter", 
+				"cool", "Wistia", "hot", "amfhot", "gist_heat", or "copper". 
+
+--output                        [-o] the desired name of the output files (without file extensions). Default will be "gene1_gene2.csv" and "gene1_gene2.png"
+
+--noheatmap    			[-m] select this option to opt out of the creation of a heatmap of the data. Only the csv will be generated. 
+
+--threads			[-t] the desired number of threads for the program to run on. Default is 40 (all). 
+
+--filter			[-f] the lowest possible hamming distance that a sequence can have between itself and any other sequence and still be considered part of the alignment.
+				Note that only one of the sequences in this comparison will be removed from consideration. Default is 0.02 
+
+#########################
+
+REQUIREMENTS:
+
+mutualInfo.py uses python 3.5 in a Linux environment
+
+Python Libraries:
+1. matplotlib
+2. numpy
+3. math
+4. argparse
+5. sys
+6. re
+7. multiprocessing.Pool
+8. multiprocessing.freeze_support
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+python mutualInfo.py file1.fasta GENE1 file2.fasta GENE2 --color -o my_data inferno -t 12 -f 0.1
+
+
