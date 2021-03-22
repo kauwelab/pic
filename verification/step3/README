@@ -1,0 +1,50 @@
+#########################
+
+Either: 1) calculates the AUC and finds the best precision with a recall of at least 20% and reports its corresponding threshold for a specific hyper parameter combination,
+or 2) finds the best AUC from any of the hyper parameter combinations as well as the best possible precision with a recall of at least 20% from any threshold from all hyper parameter combinations. 
+Option 1 will generate a graph of the AUC as well as a graph of the false positive rate vs the true positive rate.
+Option 2 will generate a heat map of the AUC for each hyper parameter combination and a heat map of the best precision with a min recall of 20% for each hyper parameter combination
+getBestPrecision.py
+
+#########################
+
+ARGUMENT OPTIONS
+
+analyzeParameters requires 2 user inputs:
+--inputCase:			[-i] The directory containing all the tsv's with info about the high scores from the case data created by testSingleHyperParamCombo.py
+--controls:			[-n] The directory containing all the tsv's with info about the high scores from the control data created by testSingleHyperParamCombo.py
+
+ Optional Arguments
+ 
+--destination:			[-d] the desired location of the output images and text file(s). Default current directory
+--one				[-o] flag to get the AUC and best precision of a specific hyper parameter combination. Also creates a graph of the AUC and a graph of the false positive rate against the true positive rate.
+ 				Follow with the desired percent above random followed by the desired minPx percentage. e.g. -o 35 12
+--all				[-a] flag to find the best AUC of any hyper parameter combination and the best precision with a min recall of 20% of any possible threshold for all possible hyper parameter combinations.
+ 				Creates a heat map of the AUCs for each hyper parameter combination and a heat map of the best precisions for each hyper parameter combination. 
+				Reports the best of each stat and its corresponding hyper parameters
+ 
+#########################
+
+REQUIREMENTS
+
+testSingleHyperParamCombo.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. argparse
+2. numpy
+3. seaborn
+4. pandas
+5. matplotlib
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLES
+
+python getBestPrecision.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -d ../../testData/vertebrates/results/statsTests/ -o 35 16
+python getBestPrecision.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -d ../../testData/vertebrates/results/statsTests/ -a
+
+#########################

@@ -1,0 +1,41 @@
+#########################
+
+Reports the best of several stats statistics across all hyper parameter combinations and what their corresponding percentAboveRandom and minPx values are
+Reports the best ttest p-value, the best Cohen's D, the best difference above a threshold, and the best p-value for the chi-square of a threshold test 
+Also creates heat maps showing the values of each of the above mentioned test statistics for each hyper parameter combination in order to discover trends in the data
+
+findBestTestStats.py
+
+#########################
+
+ARGUMENT OPTIONS
+
+findBestTestStats requires 2 user inputs:
+--input:			[-i] the location of the csv created by analyzeParameters.py
+--output:			[-o] the desired location of all the heat maps and text file
+ 
+#########################
+
+REQUIREMENTS
+
+findBestTestStats.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. argparse
+2. matplotlib
+3. seaborn
+4. numpy
+5. pandas
+6. math
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+python findBestTestStats.py -i ../../testData/vertebrates/results/statsTests/allStats.csv -o ../../testData/results/statsTests/
+
+#########################

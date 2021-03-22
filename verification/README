@@ -1,0 +1,30 @@
+These directories contain the scripts that were used to test that our algorithm correctly identified interacting pairs in a statistically significant manner
+and also determine which hyper-parameters to use. When writing and fine-tuning the mutual information
+algorithm, it became clear that pure mutual information wasn't always a great metric for interaction 
+because it could be influenced by how well-conserved the gene was, incorrectly skewing less-conserved genes/proteins as 
+higher-interacting. See the manuscript for more on why that is, but we determined that filters needed to be in place in order
+for partial mutual information scores to be counted towards the entire mutual information score for any given interaction.
+Those filters were that the co-occurence of residues needed to be a certain amount above random and that the occurence of a single
+residue needed to be a certain percentage for the partial mutual information score in question to be counted. We weren't sure 
+exactly what those numbers should be, however, and so we tested several different numbers for each and each of their combinations.
+You'll see these numbers (percent above random, and min px) referred to as 'hyper parameters'
+
+
+Step 1: Contains the code used to run the mi_smart_filters.py on any hyper parameter combination as specificed by the user. 
+	We ran this code 1,476 different times on 36 different values for minPx and 41 different values for percentAboveRandom.
+	The inputs are the minPx and percentAboveRandom values as well as the location of all the directories containing fasta pairs for the mi_smart_filters algorithm and name of the output file.
+	The output is a tsv with one column containing the name of the fasta or protein pair and the second column containing the highest mutual information score from that pairing
+	The output file will be named after its hyper-parameter specifications, and the way we ran it we ended up with two directories, each containing 1,476 tsv's. 
+	One for the 'case' pairs and one for the 'control' pairs.
+
+Step 2: In this step we did a mega-analysis on the list of scores from the control group and the list of scores from the case group from the tsv's generated
+	by step 1 for each hyper-parameter combination so we could determine which hyper parameter combination was the best and should be used in our final
+	algorithm. Step 2 focuses on statistics tests such as 2-sample ttests and chi-square of a threshold tests. 
+
+Step 3: Like step 2 but testing precision and recall for each hyper-parameter combination by looking at the list of scores from the tsv's generated
+	in step 1. 
+
+Step 4: In the end the metric we used for 'best' hyper parameter combination was the best achievable precision with a minimum recall of 20%. We used this
+	information to improve the mi_smart_filters algorithm so that it would report a percent chance of interaction instead of just scores in a vacuum.
+	To that end, step 4 creates a dictionary of 20 thresholds to their likelihood of interaction based on the list of scores in the specified case and control tsv's. 
+	

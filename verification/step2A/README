@@ -1,0 +1,38 @@
+#########################
+
+Runs several stats tests on each of the results from each hyper parameter combination
+Runs a ttest, a chi-square of a threshold test, gets Cohen's D, and reports the means of each set of scores.
+analyzeParameters.py
+
+#########################
+
+ARGUMENT OPTIONS
+
+analyzeParameters requires 3 user inputs:
+--cases:			[-i] the location of all known-to-interact or case tsv's
+--controls:			[-n] the location of all not-known-to-interact or control tsv's 
+--output:			[-o] the desired location and name of the output csv
+ 
+#########################
+
+REQUIREMENTS
+
+analyzeParameters.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. argparse
+2. scipy
+3. statistics
+4. math
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+python analyzeParameters.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -o ../../testData/results/statsTests/allStats.csv
+
+#########################

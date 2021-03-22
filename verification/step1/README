@@ -1,0 +1,42 @@
+#########################
+
+Runs the Mutual Information script (mi_smart_filters.py) on all case and control input for a given pairing of hyper parameters in order to test those hyper parameters
+testSingleHyperParamCombo.py
+
+#########################
+
+ARGUMENT OPTIONS
+
+testSingleHyperParamCombo requires 6 user inputs:
+--percentAboveRandom:		[-r] the percent above random parameter being tested (for 10% enter 10)
+--minPx:			[-p] the minimum px and py value being tested
+--inputCases			[-a] the location of the directories containing the input fasta pairs of the case or interacting pairs. Each pair should be in its own directory named PROTEIN1_PROTEIN2.
+ 				This will automatically be the case if the user has created his or her input files using our other algorithms in ../dataPrep
+--outputCases			[-b] the location of the directory for the output for the case data. Note that the output file will be named after its hyper parameters and should therefore have a different
+ 				location than the control data, otherwise the files will be combined.
+--inputControls			[-a] the location of the directories containing the input fasta pairs of the control or not known to interact pairs. The same organization and naming convention for cases applies
+--outputControls		[-b] the location of the directory for the output for the case data. Again, give a different location than the case data. 
+ 
+#########################
+
+REQUIREMENTS
+
+testSingleHyperParamCombo.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. argparse
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+Another script was used to generate slurm scripts for each possible hyper parameter combination for both vertebrates and bacteria.
+If used in the current directory, the slurm scripts would have looked something like the following:
+
+python testSingleHyperParamCombo.py -r 13 -p 17 -a ../../testData/vertebrates/data/cases/ -b ../../testData/vertebrates/results/cases -c ../../testData/vertebrates/data/controls/ -d ../../testData/vertebrates/results/controls/
+
+Please note that not all test data was included on this repo. See the test data directory for a list of all pairings used. 
+
