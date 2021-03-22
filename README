@@ -53,7 +53,7 @@ Optional Arguments:
 
 REQUIREMENTS
 
-mutualInfo.py uses python 3.5 in a Linux environment
+mi_smart_filters.py uses python 3.7 in a Linux environment
 
 Python Libraries:
 1. matplotlib
