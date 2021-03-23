@@ -33,6 +33,6 @@ pip3 install --user [library_name]
 
 USAGE EXAMPLES
 
-python getLikelihoodThresholds.py -i ../../testData/vertebrates/results/cases/35aboveR_17minPx.tsv -n ../testData/vertebrates/results/controls/35aboveR_17minPx.tsv -o ../testData/vertebrates/results/statsTests/dictionary.txt
+python getLikelihoodThresholds.py -i ../../testData/vertebrates/results/cases/13aboveR_17minPx.tsv -n ../../testData/vertebrates/results/controls/13aboveR_17minPx.tsv -o ../../testData/vertebrates/results/statsTests/dictionary.txt
 
 #########################

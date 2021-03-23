@@ -44,7 +44,7 @@ pip3 install --user [library_name]
 
 USAGE EXAMPLES
 
-python getBestPrecision.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -d ../../testData/vertebrates/results/statsTests/ -o 35 16
+python getBestPrecision.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -d ../../testData/vertebrates/results/statsTests/ -o 13 17
 python getBestPrecision.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -d ../../testData/vertebrates/results/statsTests/ -a
 
 #########################

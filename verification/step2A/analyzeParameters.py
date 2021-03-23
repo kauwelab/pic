@@ -82,11 +82,12 @@ def ttest(case, control):
 def getMaxes(fName):
 	infile = open(fName, 'r')
 	maxes = []
+	next(infile)
 	for line in infile:
 		line = line.strip().split("\t")
-		if line[1] == 'nan':
+		if line[2] == 'nan':
 			continue
-		maxes.append(float(line[1]))
+		maxes.append(float(line[2]))
 	infile.close()
 	return maxes
 

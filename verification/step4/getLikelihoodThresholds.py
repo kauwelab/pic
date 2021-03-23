@@ -15,10 +15,11 @@ def setArgs(parser):
 
 def getScores(filename):
 	infile = open(filename, 'r')
+	next(infile)
 	scores = []
 	for line in infile:
 		line = line.strip().split("\t")
-		scores.append(float(line[1]))
+		scores.append(float(line[2]))
 	infile.close()
 
 	return scores
@@ -64,7 +65,7 @@ for i in range(len(thresholds)):
 	thresholdToProb[thresholds[i]] = likelihood
 
 outfile = open(args.output, 'w')
-outfile.write(thresholdToProb)
+outfile.write(str(thresholdToProb))
 outfile.close()
 	
 	

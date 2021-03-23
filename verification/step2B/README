@@ -36,6 +36,6 @@ pip3 install --user [library_name]
 
 USAGE EXAMPLE
 
-python findBestTestStats.py -i ../../testData/vertebrates/results/statsTests/allStats.csv -o ../../testData/results/statsTests/
+python findBestTestStats.py -i ../../testData/vertebrates/results/statsTests/allStats.csv -o ../../testData/vertebrates/results/statsTests/
 
 #########################

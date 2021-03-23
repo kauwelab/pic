@@ -10,9 +10,10 @@ def getMaxes(fname):
 
 	infile = open(fname, 'r')
 	scores = []	
+	next(infile)
 	for line in infile:
-		if not np.isnan(float(line.strip().split('\t')[1])):
-			scores.append(float(line.strip().split('\t')[1]))
+		if not np.isnan(float(line.strip().split('\t')[2])):
+			scores.append(float(line.strip().split('\t')[2]))
 	return scores
 
 def getStats(threshold, cases, controls):
@@ -44,7 +45,7 @@ def runOne(par, mpx, caseLoc, controlLoc, outLoc):
 	
 	if not outLoc.endswith("/"):
 		outLoc += "/"
-	fname = str(par) + "aboveR_" + str(mpx) + "minPx"		
+	fname = str(par) + "aboveR_" + str(mpx) + "minPx.tsv"
 	cases = getMaxes(caseLoc + fname)
 	controls = getMaxes(controlLoc + fname)
 	allScores = cases + controls
@@ -93,7 +94,7 @@ def runOne(par, mpx, caseLoc, controlLoc, outLoc):
 	plt.close()
 
 
-	outfile = open(outLoc + "precision_stats_" + dName + ".txt", 'w')
+	outfile = open(outLoc + "precision_stats_" + fname[0:-4] + ".txt", 'w')
 	outfile.write("Highest Precision: " + str(maxP) + "\n")
 	outfile.write("Corresponding Recall: " + str(corrRecall) + "\n")
 	outfile.write("Corresponding Threshold: " + str(bestThreshold) + "\n")
@@ -139,7 +140,7 @@ def runAll(caseLoc, controlLoc, outLoc):
 					bestThreshold = score
 					maxP = p
 					corrRecall = r
-					bestParamComboPrecision = d
+					bestParamComboPrecision = fname[0:-4]
 				falsePos_v_truePos.append((t,f))
 			precision.append(localMaxP)
 			falsePos_v_truePos.sort()
@@ -149,7 +150,7 @@ def runAll(caseLoc, controlLoc, outLoc):
 			aucs.append(auc)
 			if auc > bestAUC:
 				bestAUC = auc
-				bestParamComboAUC = d
+				bestParamComboAUC = fname[0:-4]
 	
 	columns=["percentAboveRandom", "minPx", "Precision", "AUC"] 
 	df = pd.DataFrame(list(zip(PARs, MPXs, precision, aucs)), columns=columns) 
