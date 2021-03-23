@@ -5,10 +5,12 @@ mi_smart_filters.py
 Created by: Katrisa Ward (Bennion)
 Email: katrisa14@gmail.com
 
+PI: Justin Miller, PhD: justin.miller@uky.edu
+
 #########################
 
 Calculates the mutual information between positions on two differnt proteins and gives a probability of interaction based on that score.
-Uses two multi-sequence alignment protein files, each containing the same set of several different species,
+Uses two protein multiple sequence alignment files, each containing the same set of at least 100 different species,
 to provide a score of interaction between each residue on the two proteins. 
 A CSV file and heat map of those scores are created or a tsv detailing the highest score, its location, and its probability of interaction.
 
