@@ -112,8 +112,8 @@ def analyze(caseFile, controlFile):
 
 def setArgs(parser):
 
-	parser.add_argument("-i", "--case", help="The location of all the case or known-to-interact tsv's", required=True)
-	parser.add_argument("-n", "--control", help="The location of all the control or not-known-to-interact tsv's", required=True)
+	parser.add_argument("-i", "--interacting", help="The location of all the known-to-interact tsv's", required=True)
+	parser.add_argument("-n", "--unknown", help="The location of all the not-known-to-interact tsv's", required=True)
 	parser.add_argument("-o", "--output", help="The desired location and name of the output csv", required=True)
 	args = parser.parse_args()
 	

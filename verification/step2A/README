@@ -9,8 +9,8 @@ analyzeParameters.py
 ARGUMENT OPTIONS
 
 analyzeParameters requires 3 user inputs:
---cases:			[-i] the location of all known-to-interact or case tsv's
---controls:			[-n] the location of all not-known-to-interact or control tsv's 
+--interacts:			[-i] the location of all known-to-interact tsv's
+--unknowns:			[-n] the location of all not-known-to-interact tsv's 
 --output:			[-o] the desired location and name of the output csv
  
 #########################
@@ -33,6 +33,6 @@ pip3 install --user [library_name]
 
 USAGE EXAMPLE
 
-python analyzeParameters.py -i ../../testData/vertebrates/results/cases/ -n ../../testData/vertebrates/results/controls/ -o ../../testData/vertebrates/results/statsTests/allStats.csv
+python analyzeParameters.py -i ../../testData/vertebrates/results/interact/ -n ../../testData/vertebrates/results/unknown/ -o ../../testData/vertebrates/results/statsTests/allStats.csv
 
 #########################

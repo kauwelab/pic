@@ -6,8 +6,8 @@ import argparse
 
 def setArgs(parser):
 
-	parser.add_argument("-i", "--case", help="The tsv of the high scores from the case group with the best hyper parameter combination as determined/chosen from steps 2 and 3 ", required=True)
-	parser.add_argument("-n", "--control", help="The tsv of the high scores from the control group with the best hyper parameter combination as determined/chosen from steps 2 and 3", required=True)
+	parser.add_argument("-i", "--interacting", help="The tsv of the high scores from pairs known to interact with the best hyper parameter combination as determined/chosen from steps 2 and 3 ", required=True)
+	parser.add_argument("-n", "--unknown", help="The tsv of the high scores from pairs not known to interact with the best hyper parameter combination as determined/chosen from steps 2 and 3", required=True)
 	parser.add_argument("-o", "--output", help="The desired location and name of the text file that will contain the python-formatted dictionary of thresholds to likelihood of interaction", required=True)
 	args = parser.parse_args()
 	

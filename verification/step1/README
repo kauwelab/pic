@@ -1,6 +1,6 @@
 #########################
 
-Runs the Mutual Information script (mi_smart_filters.py) on all case and control input for a given pairing of hyper parameters in order to test those hyper parameters
+Runs the Mutual Information script (mi_smart_filters.py) on all interacting and not known to interact input for a given pairing of hyper parameters in order to test those hyper parameters
 testSingleHyperParamCombo.py
 
 #########################
@@ -10,12 +10,12 @@ ARGUMENT OPTIONS
 testSingleHyperParamCombo requires 6 user inputs:
 --percentAboveRandom:		[-r] the percent above random parameter being tested (for 10% enter 10)
 --minPx:			[-p] the minimum px and py value being tested
---inputCases			[-a] the location of the directories containing the input fasta pairs of the case or interacting pairs. Each pair should be in its own directory named PROTEIN1_PROTEIN2.
+--interactingInput		[-ii] the location of the directories containing the input fasta pairs of the interacting pairs. Each pair should be in its own directory named PROTEIN1_PROTEIN2.
  				This will automatically be the case if the user has created his or her input files using our other algorithms in ../dataPrep
---outputCases			[-b] the location of the directory for the output for the case data. Note that the output file will be named after its hyper parameters and should therefore have a different
- 				location than the control data, otherwise the files will be combined.
---inputControls			[-a] the location of the directories containing the input fasta pairs of the control or not known to interact pairs. The same organization and naming convention for cases applies
---outputControls		[-b] the location of the directory for the output for the case data. Again, give a different location than the case data. 
+--interactingOutput		[-io] the location of the directory for the output for the interacting data. Note that the output file will be named after its hyper parameters and should therefore have a different
+ 				location than the data not known to interact, otherwise the files will be combined.
+--unknownInput			[-ui] the location of the directories containing the input fasta pairs of the pairs not known to interact. The same organization and naming convention for interacting data applies
+--unknownOutput			[-uo] the location of the directory for the output for the case data. Again, give a different location than the interacting data. 
  
 #########################
 
@@ -36,7 +36,7 @@ USAGE EXAMPLE
 Another script was used to generate slurm scripts for each possible hyper parameter combination for both vertebrates and bacteria.
 If used in the current directory, the slurm scripts would have looked something like the following:
 
-python testSingleHyperParamCombo.py -r 13 -p 17 -a ../../testData/vertebrates/data/cases/ -b ../../testData/vertebrates/results/cases -c ../../testData/vertebrates/data/controls/ -d ../../testData/vertebrates/results/controls/
+python testSingleHyperParamCombo.py -r 13 -p 17 -ii ../../testData/vertebrates/data/interact/ -io ../../testData/vertebrates/results/interact -ui ../../testData/vertebrates/data/unknown/ -uo ../../testData/vertebrates/results/unknown/
 
 Please note that not all test data was included on this repo. See the test data directory for a list of all pairings used. 
 

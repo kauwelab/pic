@@ -191,8 +191,8 @@ def setArgs(parser):
 	Return:
 		args: the arguments
 	"""
-	parser.add_argument("-i", "--inputCase", help="The directory containing all the tsv's with info about the high scores from the case data created by testSingleHyperParamCombo.py", required=True)
-	parser.add_argument("-n", "--inputControl", help="The directory containing all the tsv's with info about the high scores from the control data created by testSingleHyperParamCombo.py", required=True)
+	parser.add_argument("-i", "--interacting", help="The directory containing all the tsv's with info about the high scores from the known-to-interact data created by testSingleHyperParamCombo.py", required=True)
+	parser.add_argument("-n", "--unknown", help="The directory containing all the tsv's with info about the high scores from the not-known-to-interact data created by testSingleHyperParamCombo.py", required=True)
 	parser.add_argument("-d", "--destination", help="The desired location for output files. Default current directory\n", default="", required=False, type=str)
 	parser.add_argument("-a", "--all", help="Flag to compare scores for all hyper parameter pairs and create heat maps for AUC scores and best precisions at each pair\n", required=False, action="store_true")
 	parser.add_argument("-o", "--one", help="Run only on a certain hyper parameter pair and create their precision vs recall and ROC graphs. List the percent above random followed by the minpx (e.g. -o 10 15)\n", required=False, nargs="+")
