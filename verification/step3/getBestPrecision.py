@@ -206,9 +206,9 @@ if __name__ == '__main__':
 	args = setArgs(parser)
 
 	if args.all:
-		runAll(args.inputCase, args.inputControl, args.destination)
+		runAll(args.interacting, args.unknown, args.destination)
 	if args.one:
-		runOne(args.one[0], args.one[1], args.inputCase, args.inputControl, args.destination)
+		runOne(args.one[0], args.one[1], args.interacting, args.unknown, args.destination)
 
 	
 
