@@ -12,7 +12,7 @@ PI: Justin Miller, PhD: justin.miller@uky.edu
 Calculates the mutual information between positions on two differnt proteins and gives a probability of interaction based on that score.
 Uses two protein multiple sequence alignment files, each containing the same set of at least 100 different species,
 to provide a score of interaction between each residue on the two proteins. 
-A CSV file and heat map of those scores are created or a tsv detailing the highest score, its location, and its probability of interaction.
+A CSV file and heat map of those scores are created and/or a tsv detailing the highest score, its location, and its probability of interaction.
 
 #########################
 
@@ -33,9 +33,11 @@ Optional Arguments:
 
 --dataname			[-d] The filepath to the output csv. Default name made from protein names and written to the current directory.
 
+--nodata			[-xi] Flag to not create a csv.
+
 --imagename			[-i] The filepath to the output png of the heat map. Default name made from protein names and written to the current directory.
 
---noheatmap    			[-m] Flag to not create a heatmap. 
+--noheatmap    			[-xi] Flag to not create a heatmap. 
 
 --threads			[-t] The number of threads, default all. 
 
@@ -48,7 +50,7 @@ Optional Arguments:
 --highestScore			[-s] Flag to record only the highest mutual information score, its position, and its chance of interaction in a tsv. Also provide the filename (e.g. -s allMaxes.tsv)
 				This option appends to a file and is intended for large analyses with several protein pairs where they can all have their results written to the same file. 
 
---taxonomic			[-x] The taxonomic group of the input files. Flag to use the best values for percentAboveRandom and minPx as determined by our research. Input b or bacteria, v or vertebrates
+--taxonomicGroup		[-g] The taxonomic group of the input files. Flag to use the best values for percentAboveRandom and minPx as determined by our research. Input b or bacteria, v or vertebrates
 
 
 #########################
@@ -78,6 +80,6 @@ USAGE EXAMPLES
 
 python mi_smart_filters.py -f1 ADA.fasta -f2 APOE.fasta -p1 ADA -p2 APOE -d APOE_ADA.csv -i proteinComp.png -c magma -p 22 -r 30 -t 14
 
-python mi_smart_filters.py -f1 ADA.fasta -f2 APOE.fasta -p1 ADA -p2 APOE -s interactingProteins.tsv -x v
+python mi_smart_filters.py -f1 ADA.fasta -f2 APOE.fasta -p1 ADA -p2 APOE -s interactingProteins.tsv -g v -xi -xd 
 
 

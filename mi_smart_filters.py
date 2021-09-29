@@ -1,4 +1,4 @@
-erom multiprocessing import Pool,freeze_support
+from multiprocessing import Pool,freeze_support
 from multiprocessing.pool import ThreadPool
 import traceback
 import sys
@@ -43,6 +43,76 @@ class MiMatrix():
         self.matrix = matrix
         self.distributions = {}
     
+    def getSummary(self, taxGroup):
+        """
+        Analyzes the mutual information results according to pre-determined likelihood thresholds and gives a likelihood of interaction with other pertinent information.
+        
+        Args:
+            taxGroup (string): the taxonomic group that the data is from. Used to determine the appropriate threshold.
+        Returns:
+            likelihood (float): the likelihood of interaction for the protein pairing
+            position1 (int): the position on the first protein of the residue involved in the highest residue-residue interaction score
+            position2 (int): the position on the second protein of the residue involved in the highest residue-residue interaction score
+            maxScore (flaot): the highest residue-residue interaction score for the protein pairing
+        """
+        thresholds = None
+        if taxGroup == 'v' or taxGroup == 'vertebrates':
+            thresholds = {480.76335120970106: 0.9967903054986593, 151.51649042416005: 0.9843895787572473, 79.28735697652426: 0.9731623558369892, 45.61458962695341: 0.9584947546596488, 30.18496425069254: 0.9223390440307899, 20.9852341587332: 0.8940196325485572, 15.044388316202244: 0.8530744990929122, 10.925487048296537: 0.8092878569949842, 7.851299350820726: 0.7550646259170521, 6.166235010210569: 0.6999362578073668, 4.620538882440486: 0.6380525852094209, 3.5875979599677743: 0.5595874056324671}
+        elif taxGroup == 'b' or taxGroup == 'bacteria':
+            thresholds = {44.399839098866174: 0.9874630078019909, 32.01057839583139: 0.9656037791555948, 23.930940257329848: 0.9508655560454728, 20.136639306157356: 0.9220781775618201, 18.264811466880378: 0.9045160232767806, 17.03460914998562: 0.8988627485024742, 15.001936391295194: 0.8469722842506239, 13.194554167079934: 0.7982773547628034, 11.065147470225472: 0.75613196814562, 10.43074661430499: 0.7236323955022063, 9.460142689310178: 0.6689304722683813, 8.339216723912237: 0.6125403501907464, 7.089151582107779: 0.5608744817188088}
+        
+        maxScore = 0
+        position1 = 0
+        position2 = 0
+        for i in range(len(self.matrix)):
+            for j in range(len(self.matrix[0])):
+                if self.matrix[i][j] > maxScore:
+                        maxScore = self.matrix[i][j]
+                        position1 = i
+                        position2 = j
+        if thresholds:
+            keys = list(thresholds.keys())
+            keys.sort()
+            likelihood = 0.5
+            for key in keys:
+                if maxScore >= key:
+                    likelihood = thresholds[key]
+
+        else:
+            likelihood = None
+
+        return likelihood, position1, position2, maxScore
+
+
+    def recordHighestValue(self, fname, p1, p2, taxGroup):
+        """
+        For mega-analyses involving more than one protein-protein pair, in which the user wishes to only store the 
+        highest score from each pairing in a tsv file as a table with the following columns: the name of the first protein,
+        the name of the second protein, the score, the position on the first protein corresponding to the max score, the 
+        position on the second protein corresponding to the max score, and the likelihood of interaction. Note that the 
+        likelihood of interaction is not known if the minPx and percentAboveRandom values are set by the user. Also note
+        that this function appends to a existent file rather than overwriting it if that file does exist. 
+
+        Args:
+            fname (string): The name of the output file
+            p1 (string): The name of the first protein
+            p2 (string): The name of the second protein
+            taxGroup (string): The taxonomic group that the data is from
+        """
+        likelihood, position1, position2, maxScore = self.getSummary(taxGroup) 
+        if not likelihood:
+            likelihood = np.nan 
+        writeHeader = False
+        if not os.path.exists(fname):
+            writeHeader = True
+        outfile = open(fname, 'a+')
+        if writeHeader:
+            headers = ['Protein1', 'Protein2', 'MaxScore', 'Position1', 'Position2', 'LikelihoodOfInteraction']
+            outfile.write("\t".join(headers) + "\n")
+        output = [p1, p2, str(maxScore), str(position1), str(position2), str(likelihood)]
+        outfile.write("\t".join(output) + "\n")
+        outfile.close()
+
 
     def orderMatrix(self): 
         """
@@ -59,9 +129,9 @@ class MiMatrix():
         self.matrix = multiArray
 
 
-    def makeCsv(self, name):
+    def makeCsv(self, name, taxGroup, protein1, protein2):
         """
-        Writes the mutual information score matrix to a .csv file
+        Writes the mutual information score matrix to a .csv file and relevant analysis information to a summary text file
 
         Args:
             name (string): The name of the output file
@@ -71,6 +141,15 @@ class MiMatrix():
             for data in line:
                 outfile.write(str(data)+",")
             outfile.write("\n") 
+        outfile.close()
+
+        outfile = open(name.strip(".csv") + "_summary.txt", 'w')
+        likelihood, position1, position2, maxScore = self.getSummary(taxGroup)
+        if likelihood:
+            outfile.write("Comparison has a max interaction score of {} at position {} on {} and position {} on {}, giving a likelihood of interaction of {}".format(maxScore, position1, protein1, position2, protein2, likelihood))
+        else:
+            outfile.write("Comparison has a max interaction score of {} at position {} on {} and position {} on {}. No likelihood generated due to lack of taxonomic information".format(maxScore, position1, protein1, position2, protein2))
+
         outfile.close()
     
 
@@ -158,6 +237,8 @@ class MutualInfoCalculator():
         except MsaException as m:
             print(m.message)
             exit()
+        
+        self.getAlignmentsIntersect()
        
         try:
             self.errorCheck()
@@ -167,7 +248,25 @@ class MutualInfoCalculator():
 
         self.transpose1 = self.transpose(self.alignment1)
         self.transpose2 = self.transpose(self.alignment2)
-       
+    
+    def getAlignmentsIntersect(self):
+        species1 = list(self.alignment1.keys())
+        species2 = list(self.alignment2.keys())
+
+        inOneNotTwo = [i for i in species1 if i not in species2]
+        inTwoNotOne = [i for i in species2 if i not in species1]
+        
+        for species in inOneNotTwo:
+            self.alignment1.pop(species)
+        for species in inTwoNotOne:
+            self.alignment2.pop(species)
+
+        if len(inOneNotTwo) > 0:
+            print("WARNING: The following headers were removed from the first file: ")
+            print(inOneNotTwo)
+        if len(inTwoNotOne) > 0:
+            print("WARNING: The following headers were removed from the second file: ")
+            print(inTwoNotOne)
 
     def errorCheck(self):
         """
@@ -251,62 +350,6 @@ class MutualInfoCalculator():
         self.miMatrix.correctScores()
         
         print("Basic MI time:", time.time()-basic_mi_start)
-
-    
-    def recordHighestValue(self, fname, p1, p2, taxGroup):
-        """
-        For mega-analyses involving more than one protein-protein pair, in which the user wishes to only store the 
-        highest score from each pairing in a tsv file as a table with the following columns: the name of the first protein,
-        the name of the second protein, the score, the position on the first protein corresponding to the max score, the 
-        position on the second protein corresponding to the max score, and the likelihood of interaction. Note that the 
-        likelihood of interaction is not known if the minPx and percentAboveRandom values are set by the user. Also note
-        that this function appends to a existent file rather than overwriting it if that file does exist. 
-
-        Args:
-            fname (string): The name of the output file
-            p1 (string): The name of the first protein
-            p2 (string): The name of the second protein
-            taxGroup (string): The taxonomic group that the data is from
-        """
-        getLikelihood = True
-        if taxGroup == 'v' or taxGroup == 'vertebrates':
-            thresholds = {480.76335120970106: 0.9967903054986593, 151.51649042416005: 0.9843895787572473, 79.28735697652426: 0.9731623558369892, 45.61458962695341: 0.9584947546596488, 30.18496425069254: 0.9223390440307899, 20.9852341587332: 0.8940196325485572, 15.044388316202244: 0.8530744990929122, 10.925487048296537: 0.8092878569949842, 7.851299350820726: 0.7550646259170521, 6.166235010210569: 0.6999362578073668, 4.620538882440486: 0.6380525852094209, 3.5875979599677743: 0.5595874056324671}
-        elif taxGroup == 'b' or taxGroup == 'bacteria':
-            thresholds = {44.399839098866174: 0.9874630078019909, 32.01057839583139: 0.9656037791555948, 23.930940257329848: 0.9508655560454728, 20.136639306157356: 0.9220781775618201, 18.264811466880378: 0.9045160232767806, 17.03460914998562: 0.8988627485024742, 15.001936391295194: 0.8469722842506239, 13.194554167079934: 0.7982773547628034, 11.065147470225472: 0.75613196814562, 10.43074661430499: 0.7236323955022063, 9.460142689310178: 0.6689304722683813, 8.339216723912237: 0.6125403501907464, 7.089151582107779: 0.5608744817188088}
-        else:
-            getLikelihood = False
-
-        maxScore = 0
-        position1 = 0
-        position2 = 0
-        for i in range(len(self.miMatrix.matrix)):
-            for j in range(len(self.miMatrix.matrix[0])):
-                if self.miMatrix.matrix[i][j] > maxScore:
-                        maxScore = self.miMatrix.matrix[i][j]
-                        position1 = i
-                        position2 = j
-        if getLikelihood:
-            keys = list(thresholds.keys())
-            keys.sort()
-            likelihood = 0.5
-            for key in keys:
-                if maxScore >= key:
-                    likelihood = thresholds[key]
-
-        else:
-            likelihood = np.nan
-
-        writeHeader = False
-        if not os.path.exists(fname):
-            writeHeader = True
-        outfile = open(fname, 'a+')
-        if writeHeader:
-            headers = ['Protein1', 'Protein2', 'MaxScore', 'Position1', 'Position2', 'LikelihoodOfInteraction']
-            outfile.write("\t".join(headers) + "\n")
-        output = [p1, p2, str(maxScore), str(position1), str(position2), str(likelihood)]
-        outfile.write("\t".join(output) + "\n")
-        outfile.close()
-
 
 
     def makeRow(self, index):
@@ -451,17 +494,18 @@ def setArgs(parser):
 	parser.add_argument("-f1", "--fasta1", help="The multiple sequence alignment of the protein sequence of the first gene", required=True)
 	parser.add_argument("-f2", "--fasta2", help="The multiple sequence alignment of the protein sequence of the second gene", required=True)
 	parser.add_argument("-d", "--dataname", help="The filepath to the output csv. Default name made from protein names and written to the current directory", required=False)
+	parser.add_argument("-xd", "--nodata", action="store_true", help="flag to not create a csv", default=False, required=False)
 	parser.add_argument("-i", "--imagename", help="The filepath to the heat map png. Default name made from the protein names and written to the current directory", required=False)
+	parser.add_argument("-xi", "--noimage", action="store_true", help="Flag to not create a heatmap", required=False)
 	parser.add_argument("-c","--color", help="The matplotlib color scheme of the heatmap", nargs="?", type=str, default="viridis")	
-	parser.add_argument("-m", "--noheatmap", action="store_true", help="Flag to not create a heatmap", required=False)
 	parser.add_argument("-t", "--threads", type=int, help="The number of threads, default all", default=40, required=False)
 	parser.add_argument("-n", "--noneg", help="Change all negative values to zero exclusively for the creation of the heatmap so that high values stand out more", action="store_true", required=False)
 	parser.add_argument("-p", "--minPx", help="Minimum percentage of the domain that a residue needs to make up to count towards the MI score.", type=float, required=False)
 	parser.add_argument("-r", "--percentAboveRandom", help="Minimum percentage above random that a pairing should occur to be factored into MI scores. Default 35", type=float, required=False)
-	parser.add_argument("-s", "--highestscore", help="Flag to record only the highest mutual information score and position of said score in a tsv. Also provide the filename (e.g. -s allMaxes.tsv)", required=False)
+	parser.add_argument("-s", "--highestscore", help="Flag to append only the highest mutual information score and position of said score on a single line in a tsv. Helpful for running several analyses in tandem. Also provide the filename (e.g. -s allMaxes.tsv)", required=False)
 	parser.add_argument("-p1", "--protein1", help="The name of the first protein being compared", required=True)
 	parser.add_argument("-p2", "--protein2", help="The name of the second protein being compared", required=True)
-	parser.add_argument("-x", "--taxonomic", help="The taxonomic group of the input files. Flag to use the best values for percentAboveRandom and minPx as determined by our research. Input 'b' or 'bacteria', 'v' or 'vertebrates", required=False)
+	parser.add_argument("-g", "--taxonomicGroup", help="The taxonomic group of the input files. Flag to use the best values for percentAboveRandom and minPx as determined by our research. Input 'b' or 'bacteria', 'v' or 'vertebrates", required=False)
 	args = parser.parse_args()
 
 	colors = "viridis plasma inferno magma Greys Purples Blues Greens Oranges Reds YlOrBr YlOrRd OrRd PuRd RdPu BuPu GnBu PuBu YlGnBu PuBuGn BuGn YlGn binary gist_yarg gist_gray gray bone pink spring summer autumn winter cool Wistia hot afmhot gist_heat copper"
@@ -505,22 +549,22 @@ def setArgs(parser):
 		print("If using --minPx please also include --percentAboveRandom")
 		exit()
 
-	if args.taxonomic and args.percentAboveRandom:
-		args.taxonomic = None
+	if args.taxonomicGroup and args.percentAboveRandom:
+		args.taxonomicGroup = None
 
-	if not args.percentAboveRandom and (args.taxonomic == 'v' or args.taxonomic == 'vertebrates'):
+	if not args.percentAboveRandom and (args.taxonomicGroup == 'v' or args.taxonomicGroup == 'vertebrates'):
 		args.percentAboveRandom = 35.0
 		args.minPx = 17.0
     
-	if not args.percentAboveRandom and (args.taxonomic == 'b' or args.taxonomic == 'bacteria'):
+	if not args.percentAboveRandom and (args.taxonomicGroup == 'b' or args.taxonomicGroup == 'bacteria'):
 		args.percentAboveRandom = 22.0
 		args.minPx = 29.0
 
-	if args.taxonomic and args.taxonomic not in taxGroups:
-		print("Invalid option entered for --taxonomic. Please enter a valid option (v, b, vetebrates, bacteria")
+	if args.taxonomicGroup and args.taxonomicGroup not in taxGroups:
+		print("Invalid option entered for --taxonomicGroup. Please enter a valid option (v, b, vetebrates, bacteria)")
 		exit()
     
-	if not args.taxonomic and not args.minPx:
+	if not args.taxonomicGroup and not args.minPx:
 		print("Please either choose a taxonomic group or set the minPx and percentAboveRandom values yourself.")
 		exit()
 	
@@ -544,9 +588,9 @@ if __name__ == '__main__':
     calculator.makeMiMatrix()
     
     if not (args.highestscore is None):
-        calculator.recordHighestValue(args.highestscore, args.protein1, args.protein2, args.taxonomic)
-    else:
-        calculator.miMatrix.makeCsv(args.dataname)
-        if not args.noheatmap:
-            calculator.makeHeatMap(args.noneg, args.color, args.protein1, args.protein2, args.imagename) 
-        print("total time: %s seconds" %(time.time() - start_time))
+        calculator.miMatrix.recordHighestValue(args.highestscore, args.protein1, args.protein2, args.taxonomicGroup)
+    if not args.nodata:
+        calculator.miMatrix.makeCsv(args.dataname, args.taxonomicGroup, args.protein1, args.protein2)
+    if not args.noimage:
+        calculator.makeHeatMap(args.noneg, args.color, args.protein1, args.protein2, args.imagename) 
+    print("total time: %s seconds" %(time.time() - start_time))
