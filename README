@@ -37,7 +37,7 @@ Optional Arguments:
 
 --imagename			[-i] The filepath to the output png of the heat map. Default name made from protein names and written to the current directory.
 
---noheatmap    			[-xi] Flag to not create a heatmap. 
+--noimage    			[-xi] Flag to not create a heatmap. 
 
 --threads			[-t] The number of threads, default all. 
 
