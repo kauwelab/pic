@@ -34,6 +34,9 @@ class TooFewAlignmentsException(MsaException):
     def __init__(self, length):
         self.message = "ERROR: Too few sequences. For accurate results please use only alignments with 100 sequences or more. You only provided " + str(length)
 
+class ModelOrgNotFoundException(MsaException):
+    def __init__(self, org):
+        self.message = 'ERROR: model species "' + org + '" not found in file. Please enter the species name exactly how it appears in its header without leading ">"' 
 
 
 
@@ -172,7 +175,7 @@ class MiMatrix():
 
 
 class MutualInfoCalculator():
-    def __init__(self, file1, file2, minPx, percentAboveRandom):
+    def __init__(self, file1, file2, minPx, percentAboveRandom, model):
         self.fasta1 = file1
         self.fasta2 = file2
         self.transpose1 = []
@@ -180,6 +183,7 @@ class MutualInfoCalculator():
         self.minPx = minPx/100.0
         self.interactionRequirement = 5
         self.percentOfRand = 1.0 + percentAboveRandom/100
+        self.modelOrg = model
 
 
     def makeFileDictionary(self, fullPath):
@@ -199,11 +203,12 @@ class MutualInfoCalculator():
             print("files missing")
             exit()
         headerToGene = {}
-        key = next(infile).strip()
-        self.modelOrg = key
-        value = next(infile).strip()
-        if value.startswith(">"):
-            raise FastaException()
+        key = next(infile).strip("\n>")
+        #self.modelOrg = key
+        #value = next(infile).strip()
+        #if value.startswith(">"):
+        #    raise FastaException()
+        value = ""
         for line in infile:
             line = line.strip()
             if line[0] == '>':
@@ -212,12 +217,14 @@ class MutualInfoCalculator():
                 else:
                     headerToGene[key] = value
                     value = ''
-                    key = line
+                    key = line.strip("\n>")
             else:
                 value += line
         headerToGene[key] = value
         if len(headerToGene) < 100:
             raise TooFewAlignmentsException(len(headerToGene))
+        if self.modelOrg not in headerToGene:
+            raise ModelOrgNotFoundException(self.modelOrg)
         infile.close()
         return headerToGene
 
@@ -506,6 +513,7 @@ def setArgs(parser):
 	parser.add_argument("-p1", "--protein1", help="The name of the first protein being compared", required=True)
 	parser.add_argument("-p2", "--protein2", help="The name of the second protein being compared", required=True)
 	parser.add_argument("-g", "--taxonomicGroup", help="The taxonomic group of the input files. Flag to use the best values for percentAboveRandom and minPx as determined by our research. Input 'b' or 'bacteria', 'v' or 'vertebrates", required=False)
+	parser.add_argument("-m", "--modelSpecies", help="The species to use as the model species.", required=True)
 	args = parser.parse_args()
 
 	colors = "viridis plasma inferno magma Greys Purples Blues Greens Oranges Reds YlOrBr YlOrRd OrRd PuRd RdPu BuPu GnBu PuBu YlGnBu PuBuGn BuGn YlGn binary gist_yarg gist_gray gray bone pink spring summer autumn winter cool Wistia hot afmhot gist_heat copper"
@@ -581,7 +589,7 @@ if __name__ == '__main__':
     args = setArgs(parser)
     print("argParse: %s seconds" %(time.time() - parser_start))
 
-    calculator = MutualInfoCalculator(args.fasta1, args.fasta2, args.minPx, args.percentAboveRandom)
+    calculator = MutualInfoCalculator(args.fasta1, args.fasta2, args.minPx, args.percentAboveRandom, args.modelSpecies)
     prep_start = time.time()
     calculator.prepareAlignments()
     print("alignment prep: %s seconds" %(time.time() - prep_start))
