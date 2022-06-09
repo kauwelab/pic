@@ -1,0 +1,7 @@
+runPrograms.sh is a wrapper program used to eliminate entries from both 
+files that did not match up with the other (i.e. the set of headers had to 
+be the same for both files)
+
+Note that this is not required since we changed the behavior of mi_smart_filters.py
+to filter out the non-matching records itself, requiring that fewer input files
+be created. Originally each protein needed a pair-specific input file.

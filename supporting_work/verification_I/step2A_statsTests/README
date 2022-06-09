@@ -33,6 +33,6 @@ pip3 install --user [library_name]
 
 USAGE EXAMPLE
 
-python analyzeParameters.py -i ../../testData/vertebrates/results/interact/ -n ../../testData/vertebrates/results/unknown/ -o ../../testData/vertebrates/results/statsTests/allStats.csv
+python analyzeParameters.py -i ../../exampleData/vertebrates/results/interact/ -n ../../exampleData/vertebrates/results/unknown/ -o ../../exampleData/vertebrates/results/statsTests/allStats.csv
 
 #########################

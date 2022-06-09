@@ -36,7 +36,7 @@ USAGE EXAMPLE
 Another script was used to generate slurm scripts for each possible hyper parameter combination for both vertebrates and bacteria.
 If used in the current directory, the slurm scripts would have looked something like the following:
 
-python testSingleHyperParamCombo.py -r 13 -p 17 -ii ../../testData/vertebrates/data/interact/ -io ../../testData/vertebrates/results/interact -ui ../../testData/vertebrates/data/unknown/ -uo ../../testData/vertebrates/results/unknown/
+python testSingleHyperParamCombo.py -r 13 -p 17 -ii ../../exampleData/vertebrates/data/interact/ -io ../../exampleData/vertebrates/results/interact -ui ../../exampleData/vertebrates/data/unknown/ -uo ../../exampleData/vertebrates/results/unknown/
 
-Please note that not all test data was included on this repo. See the test data directory for a list of all pairings used. 
+Please note that not all test data was included on this repo. See the example data directory for a list of all pairings used. 
 
