@@ -1,0 +1,6 @@
+Job_name MEF2C_SUMO1
+SequenceLength 1208
+NumberOfSequences 238
+AveragePairwiseIdentity 90.5706628363465
+AverageNumOfExceptions 1.23592715231788
+MaxNumOfExceptions 9

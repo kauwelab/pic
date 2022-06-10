@@ -1,0 +1,6 @@
+Job_name INPP5D_CSDC2_N
+SequenceLength 2481
+NumberOfSequences 186
+AveragePairwiseIdentity 79.8207334767783
+AverageNumOfExceptions 1.76178960096735
+MaxNumOfExceptions 9

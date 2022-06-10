@@ -1,0 +1,6 @@
+Job_name FERMT2_SOX2
+SequenceLength 2058
+NumberOfSequences 208
+AveragePairwiseIdentity 92.3034557295867
+AverageNumOfExceptions 1.27745383867833
+MaxNumOfExceptions 7

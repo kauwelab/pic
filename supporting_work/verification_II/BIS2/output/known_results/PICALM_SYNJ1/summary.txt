@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:26:41 PM CEST
+End date: Tue 27 Jul 2021 08:21:50 PM CEST
+job name: PICALM_SYNJ1
+jobID: NlmtJokJpo
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

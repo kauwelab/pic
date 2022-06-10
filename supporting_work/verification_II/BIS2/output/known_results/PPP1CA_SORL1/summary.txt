@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:28:44 PM CEST
+End date: Tue 27 Jul 2021 08:46:47 PM CEST
+job name: PPP1CA_SORL1
+jobID: tYzZ4kvZrv
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

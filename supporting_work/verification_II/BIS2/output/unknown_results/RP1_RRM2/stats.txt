@@ -1,0 +1,6 @@
+Job_name RP1_RRM2_N
+SequenceLength 7896
+NumberOfSequences 138
+AveragePairwiseIdentity 73.9926874932139
+AverageNumOfExceptions 1.77241641337386
+MaxNumOfExceptions 9

@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 03:02:22 AM CEST
+End date: Fri 20 Aug 2021 04:25:37 AM CEST
+job name: SORL1_TSNARE1_N
+jobID: QBAJgw6xK8
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

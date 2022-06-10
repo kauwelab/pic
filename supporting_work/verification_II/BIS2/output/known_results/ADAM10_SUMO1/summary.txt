@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 06:57:57 PM CEST
+End date: Tue 27 Jul 2021 07:05:12 PM CEST
+job name: ADAM10_SUMO1
+jobID: y0X76d7JvE
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,6 @@
+Job_name RP1_TRPM3_N
+SequenceLength 9506
+NumberOfSequences 134
+AveragePairwiseIdentity 73.3724098628454
+AverageNumOfExceptions 1.5912055543867
+MaxNumOfExceptions 11

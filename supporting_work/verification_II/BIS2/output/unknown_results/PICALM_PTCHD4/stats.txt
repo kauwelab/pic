@@ -1,0 +1,6 @@
+Job_name PICALM_PTCHD4_N
+SequenceLength 2143
+NumberOfSequences 206
+AveragePairwiseIdentity 82.431912700808
+AverageNumOfExceptions 0.877741483901073
+MaxNumOfExceptions 6

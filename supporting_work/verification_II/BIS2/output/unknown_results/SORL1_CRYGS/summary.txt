@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:41:53 AM CEST
+End date: Fri 20 Aug 2021 03:15:36 AM CEST
+job name: SORL1_CRYGS_N
+jobID: K8QW9A9u0s
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

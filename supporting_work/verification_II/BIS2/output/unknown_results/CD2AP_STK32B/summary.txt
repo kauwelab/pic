@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:13:47 AM CEST
+End date: Fri 20 Aug 2021 12:20:14 AM CEST
+job name: CD2AP_STK32B_N
+jobID: SvWLClqcC8
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

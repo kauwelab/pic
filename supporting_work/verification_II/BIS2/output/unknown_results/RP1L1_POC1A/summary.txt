@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:28:52 AM CEST
+End date: Fri 20 Aug 2021 01:41:36 AM CEST
+job name: RP1L1_POC1A_N
+jobID: tfwCagwS8e
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

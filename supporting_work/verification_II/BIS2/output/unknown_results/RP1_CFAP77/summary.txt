@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:12:01 AM CEST
+End date: Fri 20 Aug 2021 01:19:48 AM CEST
+job name: RP1_CFAP77
+jobID: uulQ3TCjJ0
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

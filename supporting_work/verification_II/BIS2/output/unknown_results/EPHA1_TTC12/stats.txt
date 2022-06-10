@@ -1,0 +1,6 @@
+Job_name EPHA1_TTC12_N
+SequenceLength 4495
+NumberOfSequences 170
+AveragePairwiseIdentity 85.2072879832829
+AverageNumOfExceptions 1.23314794215795
+MaxNumOfExceptions 9

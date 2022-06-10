@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:15:20 PM CEST
+End date: Tue 27 Jul 2021 07:36:25 PM CEST
+job name: CTNNB1_FERMT2
+jobID: Y6qswFqq3j
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

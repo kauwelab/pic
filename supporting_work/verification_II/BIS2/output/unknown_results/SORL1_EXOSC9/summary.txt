@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:45:28 AM CEST
+End date: Fri 20 Aug 2021 03:29:44 AM CEST
+job name: SORL1_EXOSC9_N
+jobID: ysmKVWYrSK
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

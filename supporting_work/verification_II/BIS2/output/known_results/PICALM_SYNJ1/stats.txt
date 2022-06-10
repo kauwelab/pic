@@ -1,0 +1,6 @@
+Job_name PICALM_SYNJ1
+SequenceLength 3029
+NumberOfSequences 216
+AveragePairwiseIdentity 78.1269050342806
+AverageNumOfExceptions 1.19874546054804
+MaxNumOfExceptions 8

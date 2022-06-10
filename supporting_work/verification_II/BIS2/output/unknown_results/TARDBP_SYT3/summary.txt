@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 03:10:00 AM CEST
+End date: Fri 20 Aug 2021 03:16:12 AM CEST
+job name: TARDBP_SYT3_N
+jobID: EmlXVJ82b2
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

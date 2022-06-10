@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:11:43 AM CEST
+End date: Fri 20 Aug 2021 12:18:31 AM CEST
+job name: CASS4_PRAM1_N
+jobID: rFPyp4AYFH
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

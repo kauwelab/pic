@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:54:00 PM CEST
+End date: Fri 20 Aug 2021 12:21:58 AM CEST
+job name: ADAMTS1_SUSD2_N
+jobID: DON9ErL6xK
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

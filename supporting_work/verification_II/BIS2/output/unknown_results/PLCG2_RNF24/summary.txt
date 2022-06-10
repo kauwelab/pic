@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:00:10 AM CEST
+End date: Fri 20 Aug 2021 01:12:50 AM CEST
+job name: PLCG2_RNF24_N
+jobID: FZv7m1xgrH
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

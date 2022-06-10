@@ -1,0 +1,6 @@
+Job_name PR1L1_IYD_N
+SequenceLength 7285
+NumberOfSequences 187
+AveragePairwiseIdentity 70.9751495805604
+AverageNumOfExceptions 2.32463967055594
+MaxNumOfExceptions 10

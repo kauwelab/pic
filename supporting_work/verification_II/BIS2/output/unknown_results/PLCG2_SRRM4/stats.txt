@@ -1,0 +1,6 @@
+Job_name PLCG2_SRRM4_N
+SequenceLength 3497
+NumberOfSequences 196
+AveragePairwiseIdentity 78.9027509114114
+AverageNumOfExceptions 1.720045753503
+MaxNumOfExceptions 10

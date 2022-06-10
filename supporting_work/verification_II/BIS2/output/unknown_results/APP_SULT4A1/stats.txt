@@ -1,0 +1,6 @@
+Job_name APP_SULT4A1_N
+SequenceLength 2164
+NumberOfSequences 215
+AveragePairwiseIdentity 88.2096956339561
+AverageNumOfExceptions 1.48706099815157
+MaxNumOfExceptions 11

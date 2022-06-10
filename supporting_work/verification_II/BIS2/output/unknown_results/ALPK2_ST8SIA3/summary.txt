@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:06:59 AM CEST
+End date: Fri 20 Aug 2021 12:18:11 AM CEST
+job name: ALPK2_ST8SIA3_N
+jobID: 2prFvWdPbt
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

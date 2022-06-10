@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 03:16:13 AM CEST
+End date: Fri 20 Aug 2021 03:24:27 AM CEST
+job name: USP6NL_CYTIP_N
+jobID: hbOv2ymwMB
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

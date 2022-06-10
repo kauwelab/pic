@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:15:23 PM CEST
+End date: Tue 27 Jul 2021 07:36:23 PM CEST
+job name: EPHA1_PTPN11
+jobID: v2siA2gFNP
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

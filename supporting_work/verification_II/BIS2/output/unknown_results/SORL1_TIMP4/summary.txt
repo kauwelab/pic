@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 02:54:56 AM CEST
+End date: Fri 20 Aug 2021 04:12:25 AM CEST
+job name: SORL1_TIMP4_N
+jobID: LuuzZHW3WV
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

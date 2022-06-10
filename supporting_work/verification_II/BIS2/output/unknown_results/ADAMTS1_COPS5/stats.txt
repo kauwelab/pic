@@ -1,0 +1,6 @@
+Job_name ADAMTS1_COPS5_N
+SequenceLength 2547
+NumberOfSequences 225
+AveragePairwiseIdentity 84.0081125631787
+AverageNumOfExceptions 1.32234000785238
+MaxNumOfExceptions 7

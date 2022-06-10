@@ -1,0 +1,6 @@
+Job_name EPHA1_SPTY2D1_N
+SequenceLength 2605
+NumberOfSequences 165
+AveragePairwiseIdentity 74.9125778642187
+AverageNumOfExceptions 1.53550863723608
+MaxNumOfExceptions 10

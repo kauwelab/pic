@@ -1,0 +1,6 @@
+Job_name EPHA1_SPATA24_N
+SequenceLength 2119
+NumberOfSequences 132
+AveragePairwiseIdentity 82.506254887185
+AverageNumOfExceptions 1.31005191127891
+MaxNumOfExceptions 7

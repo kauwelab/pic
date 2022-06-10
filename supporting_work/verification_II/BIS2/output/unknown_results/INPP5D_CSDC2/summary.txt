@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:36:53 AM CEST
+End date: Fri 20 Aug 2021 12:46:34 AM CEST
+job name: INPP5D_CSDC2_N
+jobID: JLPUeDTLCx
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

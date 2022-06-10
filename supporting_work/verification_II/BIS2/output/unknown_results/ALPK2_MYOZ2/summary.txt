@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:58:51 PM CEST
+End date: Fri 20 Aug 2021 12:06:05 AM CEST
+job name: ALPK2_MYOZ2_N
+jobID: txCFZcgrIN
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

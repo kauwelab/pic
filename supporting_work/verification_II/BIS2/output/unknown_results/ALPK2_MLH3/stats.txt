@@ -1,0 +1,6 @@
+Job_name ALPK2_MLH3_N
+SequenceLength 7173
+NumberOfSequences 201
+AveragePairwiseIdentity 63.9820526532265
+AverageNumOfExceptions 2.14275756308379
+MaxNumOfExceptions 9

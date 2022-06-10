@@ -1,0 +1,6 @@
+Job_name ALPK2_RNF126_N
+SequenceLength 6129
+NumberOfSequences 180
+AveragePairwiseIdentity 69.0567206062814
+AverageNumOfExceptions 2.22891173111437
+MaxNumOfExceptions 9

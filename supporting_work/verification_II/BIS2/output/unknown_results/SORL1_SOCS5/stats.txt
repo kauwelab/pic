@@ -1,0 +1,6 @@
+Job_name SORL1_SOCS5_N
+SequenceLength 4469
+NumberOfSequences 221
+AveragePairwiseIdentity 83.0563931481357
+AverageNumOfExceptions 1.32915641083016
+MaxNumOfExceptions 9

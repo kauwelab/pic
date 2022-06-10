@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:10:47 PM CEST
+End date: Tue 27 Jul 2021 07:20:09 PM CEST
+job name: CELF1_PTBP3
+jobID: Y6IzTfEQKH
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

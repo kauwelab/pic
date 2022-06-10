@@ -1,0 +1,6 @@
+Job_name FERMT2_COL28A1_N
+SequenceLength 2772
+NumberOfSequences 185
+AveragePairwiseIdentity 77.1948713253064
+AverageNumOfExceptions 1.53318903318903
+MaxNumOfExceptions 10

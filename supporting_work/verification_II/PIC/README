@@ -1,0 +1,52 @@
+#########################
+Parses through the PIC output tsv's and counts all likelihood of interaction above a certain threshold (we chose 0.5) as an identified interaction. 
+This number is reported for known and unkown pairs
+countInteractingPIC.py
+
+#########################
+
+REQUIREMENTS
+
+countInteractingPIC.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. pandas
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+input and output locations are hard-coded
+python countInteractingPIC.py 0.5
+
+#########################
+
+
+
+#########################
+
+runs PIC (mi_smart_filters.py) on each of the Alzheimer's related pairs used for this verification and stores the results in a tsv
+runPIC_AD.py
+#########################
+
+REQUIREMENTS
+
+countInteractingB2.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+See list of python libraries for mi_smart_filters.py
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+input and output locations are hard-coded
+python runPIC_AD.py

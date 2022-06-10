@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:34:55 AM CEST
+End date: Fri 20 Aug 2021 01:12:00 AM CEST
+job name: EPHA1_TTC12_N
+jobID: caTizbv9pr
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

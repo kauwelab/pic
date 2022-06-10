@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:34:22 AM CEST
+End date: Fri 20 Aug 2021 12:57:49 AM CEST
+job name: EPHA1_SPTY2D1_N
+jobID: Hc4yXmJ1lO
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

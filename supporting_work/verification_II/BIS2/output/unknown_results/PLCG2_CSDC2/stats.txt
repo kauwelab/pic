@@ -1,0 +1,6 @@
+Job_name PLCG2_CSDC2_N
+SequenceLength 2185
+NumberOfSequences 186
+AveragePairwiseIdentity 83.5667376241682
+AverageNumOfExceptions 1.66910755148741
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name PLCG2_RNF24_N
+SequenceLength 2592
+NumberOfSequences 220
+AveragePairwiseIdentity 84.8997618242288
+AverageNumOfExceptions 1.63966049382716
+MaxNumOfExceptions 9

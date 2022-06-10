@@ -1,0 +1,6 @@
+Job_name CNTNAP2_TSTD1_N
+SequenceLength 2212
+NumberOfSequences 100
+AveragePairwiseIdentity 76.8971450490437
+AverageNumOfExceptions 1.26130198915009
+MaxNumOfExceptions 8

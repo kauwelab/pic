@@ -1,0 +1,6 @@
+Job_name PSMC3_TXNRD2
+SequenceLength 1576
+NumberOfSequences 228
+AveragePairwiseIdentity 85.8652254644295
+AverageNumOfExceptions 1.35342639593909
+MaxNumOfExceptions 8

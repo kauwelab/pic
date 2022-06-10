@@ -1,0 +1,6 @@
+Job_name RP1L1_TMEM30A_N
+SequenceLength 6599
+NumberOfSequences 131
+AveragePairwiseIdentity 69.984478688874
+AverageNumOfExceptions 2.15669040763752
+MaxNumOfExceptions 9

@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:53:16 PM CEST
+End date: Fri 20 Aug 2021 12:33:07 AM CEST
+job name: ADAMTS1_RSF1_N
+jobID: THFo7eelIN
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

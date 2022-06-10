@@ -1,0 +1,6 @@
+Job_name EPHA1_COL4A2_N
+SequenceLength 4216
+NumberOfSequences 153
+AveragePairwiseIdentity 79.8772726990856
+AverageNumOfExceptions 1.52822580645161
+MaxNumOfExceptions 9

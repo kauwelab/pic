@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:17:00 AM CEST
+End date: Fri 20 Aug 2021 01:11:40 AM CEST
+job name: CNTNAP2_PREP_N
+jobID: tYHr2Rt6K7
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

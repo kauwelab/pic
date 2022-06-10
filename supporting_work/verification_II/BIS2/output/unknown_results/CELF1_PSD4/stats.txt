@@ -1,0 +1,6 @@
+Job_name CELF1_PSD4_N
+SequenceLength 2275
+NumberOfSequences 111
+AveragePairwiseIdentity 79.3884313884312
+AverageNumOfExceptions 1.45978021978022
+MaxNumOfExceptions 8

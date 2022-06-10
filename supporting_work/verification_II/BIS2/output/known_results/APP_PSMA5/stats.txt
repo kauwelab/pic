@@ -1,0 +1,6 @@
+Job_name APP_PSMA5
+SequenceLength 1451
+NumberOfSequences 216
+AveragePairwiseIdentity 88.0665269311423
+AverageNumOfExceptions 1.12060647829083
+MaxNumOfExceptions 6

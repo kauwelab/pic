@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:05:34 PM CEST
+End date: Tue 27 Jul 2021 07:26:55 PM CEST
+job name: APP_STAU1
+jobID: fSwCEttMxQ
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

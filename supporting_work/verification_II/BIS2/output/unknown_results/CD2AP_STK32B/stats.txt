@@ -1,0 +1,6 @@
+Job_name CD2AP_STK32B_N
+SequenceLength 2386
+NumberOfSequences 172
+AveragePairwiseIdentity 84.993785431108
+AverageNumOfExceptions 1.53185247275775
+MaxNumOfExceptions 12

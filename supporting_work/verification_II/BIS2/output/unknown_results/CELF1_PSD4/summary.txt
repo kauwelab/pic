@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:14:28 AM CEST
+End date: Fri 20 Aug 2021 12:22:55 AM CEST
+job name: CELF1_PSD4_N
+jobID: SQ10XdUsBN
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

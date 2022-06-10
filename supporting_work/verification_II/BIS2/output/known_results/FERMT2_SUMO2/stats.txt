@@ -1,0 +1,6 @@
+Job_name FERMT2_SUMO2
+SequenceLength 1304
+NumberOfSequences 212
+AveragePairwiseIdentity 91.6420540544399
+AverageNumOfExceptions 1.6058282208589
+MaxNumOfExceptions 8

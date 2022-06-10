@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:16:57 PM CEST
+End date: Tue 27 Jul 2021 07:22:18 PM CEST
+job name: FERMT2_SNRPD1
+jobID: VtV9bqxYj4
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

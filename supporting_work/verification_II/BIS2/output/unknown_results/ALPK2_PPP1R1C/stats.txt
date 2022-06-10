@@ -1,0 +1,6 @@
+Job_name ALPK2_PPP1R1C_N
+SequenceLength 5813
+NumberOfSequences 178
+AveragePairwiseIdentity 69.5233811654326
+AverageNumOfExceptions 2.17409255117839
+MaxNumOfExceptions 10

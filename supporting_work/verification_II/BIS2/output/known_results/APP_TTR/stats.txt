@@ -1,0 +1,6 @@
+Job_name APP_TTR
+SequenceLength 1256
+NumberOfSequences 154
+AveragePairwiseIdentity 86.0208289067418
+AverageNumOfExceptions 1.17993630573248
+MaxNumOfExceptions 7

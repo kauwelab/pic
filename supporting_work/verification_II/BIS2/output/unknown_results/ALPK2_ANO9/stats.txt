@@ -1,0 +1,6 @@
+Job_name ALPK2_ANO9_N
+SequenceLength 6885
+NumberOfSequences 149
+AveragePairwiseIdentity 69.5091946796118
+AverageNumOfExceptions 2.08903413217139
+MaxNumOfExceptions 9

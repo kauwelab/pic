@@ -1,0 +1,6 @@
+Job_name RP1_RNF222_N
+SequenceLength 7901
+NumberOfSequences 170
+AveragePairwiseIdentity 72.0100047696937
+AverageNumOfExceptions 2.03480572079484
+MaxNumOfExceptions 10

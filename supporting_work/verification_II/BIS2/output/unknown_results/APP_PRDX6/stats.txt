@@ -1,0 +1,6 @@
+Job_name APP_PRDX6_N
+SequenceLength 1501
+NumberOfSequences 186
+AveragePairwiseIdentity 87.6030103732057
+AverageNumOfExceptions 1.18254497001999
+MaxNumOfExceptions 8

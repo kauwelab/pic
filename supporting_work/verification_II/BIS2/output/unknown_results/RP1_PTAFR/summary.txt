@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:13:53 AM CEST
+End date: Fri 20 Aug 2021 01:27:04 AM CEST
+job name: RP1_PTAFR_N
+jobID: FwL1e0EbBF
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

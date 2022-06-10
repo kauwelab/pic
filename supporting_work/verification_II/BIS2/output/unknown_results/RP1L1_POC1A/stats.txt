@@ -1,0 +1,6 @@
+Job_name RP1L1_POC1A_N
+SequenceLength 7808
+NumberOfSequences 172
+AveragePairwiseIdentity 73.1775588418243
+AverageNumOfExceptions 2.15432889344262
+MaxNumOfExceptions 10

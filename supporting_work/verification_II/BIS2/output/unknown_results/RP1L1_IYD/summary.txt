@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:27:05 AM CEST
+End date: Fri 20 Aug 2021 01:37:03 AM CEST
+job name: PR1L1_IYD_N
+jobID: xJqG5xKtPu
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:10:29 PM CEST
+End date: Tue 27 Jul 2021 07:15:23 PM CEST
+job name: CD2AP_PTGES3
+jobID: 0KfGsvknE5
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

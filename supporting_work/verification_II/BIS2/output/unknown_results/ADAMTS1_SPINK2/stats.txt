@@ -1,0 +1,6 @@
+Job_name ADAMTS1_SPINK2_N
+SequenceLength 1855
+NumberOfSequences 145
+AveragePairwiseIdentity 80.0239541056066
+AverageNumOfExceptions 1.45822102425876
+MaxNumOfExceptions 9

@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:09:26 PM CEST
+End date: Tue 27 Jul 2021 07:18:24 PM CEST
+job name: BIN1_SYN1
+jobID: fHWrZMelov
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

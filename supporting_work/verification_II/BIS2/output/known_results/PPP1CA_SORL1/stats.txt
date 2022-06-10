@@ -1,0 +1,6 @@
+Job_name PPP1CA_SORL1
+SequenceLength 3349
+NumberOfSequences 127
+AveragePairwiseIdentity 85.9367384989088
+AverageNumOfExceptions 1.15497163332338
+MaxNumOfExceptions 8

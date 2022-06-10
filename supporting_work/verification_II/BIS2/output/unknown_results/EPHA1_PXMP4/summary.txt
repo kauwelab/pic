@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:29:50 AM CEST
+End date: Fri 20 Aug 2021 12:44:30 AM CEST
+job name: EPHA1_PXMP4_N
+jobID: ZZkYe9zG7v
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

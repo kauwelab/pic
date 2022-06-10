@@ -1,0 +1,6 @@
+Job_name MEF2C_PSMC3_N
+SequenceLength 1516
+NumberOfSequences 253
+AveragePairwiseIdentity 92.5365459938718
+AverageNumOfExceptions 0.83509234828496
+MaxNumOfExceptions 5

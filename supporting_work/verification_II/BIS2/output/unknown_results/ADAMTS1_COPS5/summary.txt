@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:51:11 PM CEST
+End date: Fri 20 Aug 2021 12:07:29 AM CEST
+job name: ADAMTS1_COPS5_N
+jobID: WBMsoeZgce
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

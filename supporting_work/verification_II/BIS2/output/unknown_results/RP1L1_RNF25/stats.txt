@@ -1,0 +1,6 @@
+Job_name RP1L1_RNF25_N
+SequenceLength 7626
+NumberOfSequences 162
+AveragePairwiseIdentity 70.4239064623258
+AverageNumOfExceptions 2.33346446367689
+MaxNumOfExceptions 11

@@ -1,0 +1,6 @@
+Job_name INPP5D_PTEN
+SequenceLength 3121
+NumberOfSequences 201
+AveragePairwiseIdentity 81.4634166559063
+AverageNumOfExceptions 1.59115668055111
+MaxNumOfExceptions 9

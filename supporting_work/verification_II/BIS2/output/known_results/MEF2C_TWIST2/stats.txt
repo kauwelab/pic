@@ -1,0 +1,6 @@
+Job_name MEF2C_TWIST2
+SequenceLength 1419
+NumberOfSequences 215
+AveragePairwiseIdentity 94.0949044536281
+AverageNumOfExceptions 0.92600422832981
+MaxNumOfExceptions 5

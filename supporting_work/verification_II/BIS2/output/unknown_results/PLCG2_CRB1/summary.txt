@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:48:38 AM CEST
+End date: Fri 20 Aug 2021 01:54:40 AM CEST
+job name: PLCG2_CRB1_N
+jobID: pJNHd40vdW
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

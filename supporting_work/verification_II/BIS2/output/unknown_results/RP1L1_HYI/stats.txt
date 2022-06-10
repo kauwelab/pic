@@ -1,0 +1,6 @@
+Job_name RP1L1_HYI_N
+SequenceLength 7503
+NumberOfSequences 161
+AveragePairwiseIdentity 70.7034091125452
+AverageNumOfExceptions 2.33346661335466
+MaxNumOfExceptions 10

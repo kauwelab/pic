@@ -1,0 +1,6 @@
+Job_name ALPK2_PRR11_N
+SequenceLength 6153
+NumberOfSequences 163
+AveragePairwiseIdentity 69.1014257246104
+AverageNumOfExceptions 2.13586868194377
+MaxNumOfExceptions 10

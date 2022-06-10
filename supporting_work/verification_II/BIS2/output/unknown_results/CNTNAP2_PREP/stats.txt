@@ -1,0 +1,6 @@
+Job_name CNTNAP2_PREP_N
+SequenceLength 3569
+NumberOfSequences 178
+AveragePairwiseIdentity 82.102406161296
+AverageNumOfExceptions 1.41047912580555
+MaxNumOfExceptions 10

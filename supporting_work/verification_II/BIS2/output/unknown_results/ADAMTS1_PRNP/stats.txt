@@ -1,0 +1,6 @@
+Job_name ADAMTS1_PRNP_N
+SequenceLength 2599
+NumberOfSequences 158
+AveragePairwiseIdentity 83.1724827214003
+AverageNumOfExceptions 1.3574451712197
+MaxNumOfExceptions 8

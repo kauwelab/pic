@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:36:16 AM CEST
+End date: Fri 20 Aug 2021 12:43:32 AM CEST
+job name: FERMT2_SMNDC1_N
+jobID: 235I8cJky2
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

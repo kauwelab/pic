@@ -1,0 +1,6 @@
+Job_name PLCG2_CRB1_N
+SequenceLength 4555
+NumberOfSequences 184
+AveragePairwiseIdentity 76.7114663862573
+AverageNumOfExceptions 1.63293084522503
+MaxNumOfExceptions 9

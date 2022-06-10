@@ -1,0 +1,6 @@
+Job_name APP_CTSD
+SequenceLength 2069
+NumberOfSequences 182
+AveragePairwiseIdentity 86.222433094839
+AverageNumOfExceptions 1.15756404059932
+MaxNumOfExceptions 6

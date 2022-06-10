@@ -1,0 +1,6 @@
+Job_name CASS4_COL23A1_N
+SequenceLength 3121
+NumberOfSequences 182
+AveragePairwiseIdentity 73.8908155666134
+AverageNumOfExceptions 2.09740467798782
+MaxNumOfExceptions 10

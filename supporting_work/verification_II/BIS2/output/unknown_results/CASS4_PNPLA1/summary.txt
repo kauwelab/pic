@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:11:04 AM CEST
+End date: Fri 20 Aug 2021 12:17:19 AM CEST
+job name: CASS4_PNPLA1_N
+jobID: 97j516TCRV
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

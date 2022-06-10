@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 02:26:26 AM CEST
+End date: Fri 20 Aug 2021 04:10:54 AM CEST
+job name: SORL1_SMARCB1_N
+jobID: q6SP6zcJ2F
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

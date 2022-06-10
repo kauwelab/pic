@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:25:17 PM CEST
+End date: Tue 27 Jul 2021 07:33:53 PM CEST
+job name: MEF2C_TWIST2
+jobID: aQLCF0bwbp
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

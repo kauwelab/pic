@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:02:21 PM CEST
+End date: Tue 27 Jul 2021 07:12:17 PM CEST
+job name: APP_PSEN2
+jobID: QqzrZ5Prie
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

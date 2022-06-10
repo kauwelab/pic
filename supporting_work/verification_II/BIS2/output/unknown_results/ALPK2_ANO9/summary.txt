@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:54:22 PM CEST
+End date: Fri 20 Aug 2021 12:06:59 AM CEST
+job name: ALPK2_ANO9_N
+jobID: YMUjeh0bv3
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

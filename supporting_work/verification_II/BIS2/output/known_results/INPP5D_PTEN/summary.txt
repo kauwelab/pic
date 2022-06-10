@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:22:51 PM CEST
+End date: Tue 27 Jul 2021 07:37:22 PM CEST
+job name: INPP5D_PTEN
+jobID: z33RxPhoZR
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,6 @@
+Job_name FERMT2_SMNDC1_N
+SequenceLength 1428
+NumberOfSequences 235
+AveragePairwiseIdentity 91.3462519031964
+AverageNumOfExceptions 1.36064425770308
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name PICALM_SYMPK_N
+SequenceLength 3545
+NumberOfSequences 168
+AveragePairwiseIdentity 84.6090913076138
+AverageNumOfExceptions 1.37884344146685
+MaxNumOfExceptions 9

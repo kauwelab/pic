@@ -1,0 +1,6 @@
+Job_name CNTNAP2_STK40_N
+SequenceLength 2815
+NumberOfSequences 191
+AveragePairwiseIdentity 80.695445755452
+AverageNumOfExceptions 1.33854351687389
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name CELF1_SUMO2
+SequenceLength 1222
+NumberOfSequences 212
+AveragePairwiseIdentity 91.6876511913905
+AverageNumOfExceptions 1.19476268412439
+MaxNumOfExceptions 9

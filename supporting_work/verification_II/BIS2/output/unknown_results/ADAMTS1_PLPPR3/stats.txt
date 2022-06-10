@@ -1,0 +1,6 @@
+Job_name ADAMTS1_PLPPR3_N
+SequenceLength 3596
+NumberOfSequences 146
+AveragePairwiseIdentity 81.1623185999455
+AverageNumOfExceptions 1.30895439377086
+MaxNumOfExceptions 7

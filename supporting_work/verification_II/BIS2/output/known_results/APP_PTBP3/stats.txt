@@ -1,0 +1,6 @@
+Job_name APP_PTBP3
+SequenceLength 2407
+NumberOfSequences 194
+AveragePairwiseIdentity 88.1071661990795
+AverageNumOfExceptions 1.324470294973
+MaxNumOfExceptions 8

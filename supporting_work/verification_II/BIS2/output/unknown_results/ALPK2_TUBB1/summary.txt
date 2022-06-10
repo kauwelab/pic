@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:07:30 AM CEST
+End date: Fri 20 Aug 2021 12:22:32 AM CEST
+job name: ALPK2_TUBB1_N
+jobID: heX6zB1x66
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,6 @@
+Job_name APP_TUBB1_N
+SequenceLength 1739
+NumberOfSequences 189
+AveragePairwiseIdentity 87.0155870155865
+AverageNumOfExceptions 1.00920069005175
+MaxNumOfExceptions 8

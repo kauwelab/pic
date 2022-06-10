@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:31:35 AM CEST
+End date: Fri 20 Aug 2021 12:41:53 AM CEST
+job name: EPHA1_SNRPD2_N
+jobID: 0ZBHk7YoJ6
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

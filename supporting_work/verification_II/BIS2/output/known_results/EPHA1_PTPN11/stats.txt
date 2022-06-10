@@ -1,0 +1,6 @@
+Job_name EPHA1_PTPN11
+SequenceLength 2289
+NumberOfSequences 163
+AveragePairwiseIdentity 83.7291635832004
+AverageNumOfExceptions 1.21450415028397
+MaxNumOfExceptions 11

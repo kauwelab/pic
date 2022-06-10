@@ -1,0 +1,6 @@
+Job_name ALPK2_MYOZ2_N
+SequenceLength 5647
+NumberOfSequences 191
+AveragePairwiseIdentity 67.5596584056682
+AverageNumOfExceptions 2.21675225783602
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name USP6NL_COL4A1_N
+SequenceLength 3678
+NumberOfSequences 206
+AveragePairwiseIdentity 74.1885222396787
+AverageNumOfExceptions 1.66884176182708
+MaxNumOfExceptions 10

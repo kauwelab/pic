@@ -1,0 +1,6 @@
+Job_name USP6NL_CTRL_N
+SequenceLength 1707
+NumberOfSequences 142
+AveragePairwiseIdentity 73.1052491351484
+AverageNumOfExceptions 1.51493848857645
+MaxNumOfExceptions 10

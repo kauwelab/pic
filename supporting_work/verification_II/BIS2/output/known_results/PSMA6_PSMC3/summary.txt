@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:33:54 PM CEST
+End date: Tue 27 Jul 2021 07:39:17 PM CEST
+job name: PSMA6_PSMC3
+jobID: u1lVYVwwcF
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

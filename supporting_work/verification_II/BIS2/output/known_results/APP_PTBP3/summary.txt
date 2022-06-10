@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:04:43 PM CEST
+End date: Tue 27 Jul 2021 07:16:56 PM CEST
+job name: APP_PTBP3
+jobID: ttzcDow27O
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

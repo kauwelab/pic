@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:19:57 PM CEST
+End date: Tue 27 Jul 2021 07:24:26 PM CEST
+job name: FERMT2_SUMO2
+jobID: MJYb2DRlR6
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

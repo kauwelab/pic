@@ -1,0 +1,6 @@
+Job_name EPHA1_COPS7B_N
+SequenceLength 1946
+NumberOfSequences 187
+AveragePairwiseIdentity 80.2929336463801
+AverageNumOfExceptions 1.43011305241521
+MaxNumOfExceptions 11

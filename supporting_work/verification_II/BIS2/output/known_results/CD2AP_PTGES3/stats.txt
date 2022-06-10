@@ -1,0 +1,6 @@
+Job_name CD2AP_PTGES3
+SequenceLength 2502
+NumberOfSequences 210
+AveragePairwiseIdentity 85.620334900917
+AverageNumOfExceptions 1.63389288569145
+MaxNumOfExceptions 10

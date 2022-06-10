@@ -1,0 +1,6 @@
+Job_name CSTF1_SUMO2
+SequenceLength 1053
+NumberOfSequences 227
+AveragePairwiseIdentity 91.8697145328978
+AverageNumOfExceptions 1.20037986704653
+MaxNumOfExceptions 8

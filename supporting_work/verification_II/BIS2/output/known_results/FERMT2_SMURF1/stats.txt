@@ -1,0 +1,6 @@
+Job_name FERMT2_SMURF1
+SequenceLength 2579
+NumberOfSequences 219
+AveragePairwiseIdentity 91.8341686279403
+AverageNumOfExceptions 1.24738270647538
+MaxNumOfExceptions 9

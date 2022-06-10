@@ -1,0 +1,6 @@
+Job_name EPHA1_PXMP4_N
+SequenceLength 1855
+NumberOfSequences 177
+AveragePairwiseIdentity 78.7525420960023
+AverageNumOfExceptions 1.33908355795148
+MaxNumOfExceptions 8

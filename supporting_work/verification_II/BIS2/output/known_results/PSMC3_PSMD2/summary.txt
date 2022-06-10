@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:38:26 PM CEST
+End date: Tue 27 Jul 2021 07:54:38 PM CEST
+job name: PSMC3_PSMD2
+jobID: FzHCQlFIpP
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

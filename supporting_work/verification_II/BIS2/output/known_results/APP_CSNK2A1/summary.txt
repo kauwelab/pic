@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 06:58:54 PM CEST
+End date: Tue 27 Jul 2021 07:04:30 PM CEST
+job name: APP_CSNK2A1
+jobID: TOCXfL0wef
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

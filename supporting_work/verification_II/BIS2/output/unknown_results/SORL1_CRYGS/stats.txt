@@ -1,0 +1,6 @@
+Job_name SORL1_CRYGS_N
+SequenceLength 4026
+NumberOfSequences 199
+AveragePairwiseIdentity 84.2003349982881
+AverageNumOfExceptions 1.26080476900149
+MaxNumOfExceptions 11

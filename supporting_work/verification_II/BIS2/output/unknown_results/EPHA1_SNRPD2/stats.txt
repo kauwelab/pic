@@ -1,0 +1,6 @@
+Job_name EPHA1_SNRPD2_N
+SequenceLength 1734
+NumberOfSequences 139
+AveragePairwiseIdentity 82.0131979266896
+AverageNumOfExceptions 1.27104959630911
+MaxNumOfExceptions 9

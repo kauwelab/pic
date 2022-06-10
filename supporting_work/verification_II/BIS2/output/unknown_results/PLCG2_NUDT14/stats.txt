@@ -1,0 +1,6 @@
+Job_name PLCG2_NUDT14_N
+SequenceLength 2928
+NumberOfSequences 199
+AveragePairwiseIdentity 83.2833511266663
+AverageNumOfExceptions 1.54474043715847
+MaxNumOfExceptions 8

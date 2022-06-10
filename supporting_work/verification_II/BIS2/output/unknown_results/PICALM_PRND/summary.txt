@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:44:36 AM CEST
+End date: Fri 20 Aug 2021 12:47:31 AM CEST
+job name: PICALM_PRND_N
+jobID: sGXGpOKjDo
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

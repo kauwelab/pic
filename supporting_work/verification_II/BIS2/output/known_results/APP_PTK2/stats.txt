@@ -1,0 +1,6 @@
+Job_name APP_PTK2
+SequenceLength 2775
+NumberOfSequences 185
+AveragePairwiseIdentity 87.7160203681946
+AverageNumOfExceptions 0.872792792792793
+MaxNumOfExceptions 6

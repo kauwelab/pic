@@ -1,0 +1,6 @@
+Job_name PLCG2_SRC
+SequenceLength 2556
+NumberOfSequences 173
+AveragePairwiseIdentity 86.4302166751761
+AverageNumOfExceptions 1.42175273865415
+MaxNumOfExceptions 8

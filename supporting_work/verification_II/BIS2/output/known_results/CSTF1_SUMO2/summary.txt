@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:12:17 PM CEST
+End date: Tue 27 Jul 2021 07:15:26 PM CEST
+job name: CSTF1_SUMO2
+jobID: 4a9E0PufzU
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

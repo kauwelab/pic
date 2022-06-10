@@ -1,0 +1,6 @@
+Job_name ADAMTS1_RSF1_N
+SequenceLength 4380
+NumberOfSequences 192
+AveragePairwiseIdentity 76.4606044849268
+AverageNumOfExceptions 1.76712328767123
+MaxNumOfExceptions 9

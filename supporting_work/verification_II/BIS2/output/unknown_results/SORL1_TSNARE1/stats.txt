@@ -1,0 +1,6 @@
+Job_name SORL1_TSNARE1_N
+SequenceLength 5522
+NumberOfSequences 152
+AveragePairwiseIdentity 80.3087658870523
+AverageNumOfExceptions 1.30713509597972
+MaxNumOfExceptions 9

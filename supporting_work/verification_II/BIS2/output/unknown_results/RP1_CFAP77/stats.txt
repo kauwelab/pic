@@ -1,0 +1,6 @@
+Job_name RP1_CFAP77
+SequenceLength 7478
+NumberOfSequences 121
+AveragePairwiseIdentity 70.9880350589435
+AverageNumOfExceptions 1.87817598288312
+MaxNumOfExceptions 9

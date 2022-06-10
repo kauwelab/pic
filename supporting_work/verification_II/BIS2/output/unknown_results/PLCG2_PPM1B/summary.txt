@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:59:16 AM CEST
+End date: Fri 20 Aug 2021 01:20:53 AM CEST
+job name: PLCG2_PPM1B_N
+jobID: xKMFjNm8nN
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

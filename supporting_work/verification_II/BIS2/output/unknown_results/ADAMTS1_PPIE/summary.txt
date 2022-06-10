@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:52:08 PM CEST
+End date: Fri 20 Aug 2021 12:08:15 AM CEST
+job name: ADAMTS1_PPIE_N
+jobID: u6kULJiMll
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

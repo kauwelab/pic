@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 02:50:06 AM CEST
+End date: Fri 20 Aug 2021 03:55:55 AM CEST
+job name: SORL1_THEG_N
+jobID: gJZRGhKM9g
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

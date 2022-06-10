@@ -1,0 +1,6 @@
+Job_name FERMT2_SNRPD1
+SequenceLength 1398
+NumberOfSequences 222
+AveragePairwiseIdentity 93.3313277544547
+AverageNumOfExceptions 1.20243204577969
+MaxNumOfExceptions 10

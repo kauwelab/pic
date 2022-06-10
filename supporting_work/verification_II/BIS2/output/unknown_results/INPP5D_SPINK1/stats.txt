@@ -1,0 +1,6 @@
+Job_name INPP5D_SPINK1_N
+SequenceLength 1778
+NumberOfSequences 103
+AveragePairwiseIdentity 80.5590870244593
+AverageNumOfExceptions 1.53937007874016
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name APP_SYVN1
+SequenceLength 2192
+NumberOfSequences 167
+AveragePairwiseIdentity 83.7716375357631
+AverageNumOfExceptions 1.39917883211679
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name PLCG2_SNAP23_N
+SequenceLength 2608
+NumberOfSequences 224
+AveragePairwiseIdentity 84.5476519421842
+AverageNumOfExceptions 1.47200920245399
+MaxNumOfExceptions 8

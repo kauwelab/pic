@@ -1,0 +1,6 @@
+Job_name SORL1_EXOSC9_N
+SequenceLength 4274
+NumberOfSequences 227
+AveragePairwiseIdentity 81.8938309226062
+AverageNumOfExceptions 1.39705194197473
+MaxNumOfExceptions 8

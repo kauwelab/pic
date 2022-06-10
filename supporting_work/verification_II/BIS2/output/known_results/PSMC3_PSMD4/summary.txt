@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:39:18 PM CEST
+End date: Tue 27 Jul 2021 07:42:49 PM CEST
+job name: PSMC3_PSMD4
+jobID: DxwmOsJHV6
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

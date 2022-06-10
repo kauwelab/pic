@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:19:49 AM CEST
+End date: Fri 20 Aug 2021 01:40:32 AM CEST
+job name: RP1L1_AP4B1_N
+jobID: qaS8qXxPyY
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

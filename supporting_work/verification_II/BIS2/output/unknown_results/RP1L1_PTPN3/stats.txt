@@ -1,0 +1,6 @@
+Job_name RP1L1_PTPN3_N
+SequenceLength 6586
+NumberOfSequences 166
+AveragePairwiseIdentity 67.7056779141519
+AverageNumOfExceptions 2.11569996963255
+MaxNumOfExceptions 9

@@ -1,0 +1,1 @@
+# list_of_positions	number_of_sequences	aa_type	p_value	cluster_id	Ssymm	Senv

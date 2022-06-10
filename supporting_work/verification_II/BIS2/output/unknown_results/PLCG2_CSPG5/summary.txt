@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:51:59 AM CEST
+End date: Fri 20 Aug 2021 01:14:35 AM CEST
+job name: PLCG2_CSPG5_N
+jobID: 9MQIpr2XyH
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:16:09 AM CEST
+End date: Fri 20 Aug 2021 01:24:55 AM CEST
+job name: RP1_TMEM205_N
+jobID: deVKuphzus
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

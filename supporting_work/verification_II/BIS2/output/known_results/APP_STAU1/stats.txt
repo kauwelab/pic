@@ -1,0 +1,6 @@
+Job_name APP_STAU1
+SequenceLength 2222
+NumberOfSequences 217
+AveragePairwiseIdentity 84.4467261626322
+AverageNumOfExceptions 1.12016201620162
+MaxNumOfExceptions 8

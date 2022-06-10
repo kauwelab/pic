@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:17:06 AM CEST
+End date: Fri 20 Aug 2021 12:45:51 AM CEST
+job name: CNTNAP2_SPRY4_N
+jobID: 7euUzlgHaS
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

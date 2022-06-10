@@ -1,0 +1,6 @@
+Job_name SORL1_CGRRF1_N
+SequenceLength 4418
+NumberOfSequences 227
+AveragePairwiseIdentity 82.5837156091407
+AverageNumOfExceptions 1.41511996378452
+MaxNumOfExceptions 8

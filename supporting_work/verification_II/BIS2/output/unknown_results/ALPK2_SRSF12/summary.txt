@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:06:05 AM CEST
+End date: Fri 20 Aug 2021 12:25:03 AM CEST
+job name: ALPK2_SRSF12_N
+jobID: yGppZNEioy
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

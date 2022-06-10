@@ -1,0 +1,6 @@
+Job_name RP1L1_FKBP11_N
+SequenceLength 7168
+NumberOfSequences 155
+AveragePairwiseIdentity 70.9659488337131
+AverageNumOfExceptions 2.32868303571429
+MaxNumOfExceptions 10

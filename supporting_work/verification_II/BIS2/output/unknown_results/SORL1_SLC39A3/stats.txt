@@ -1,0 +1,6 @@
+Job_name SORL1_SLC39A3_N
+SequenceLength 4251
+NumberOfSequences 218
+AveragePairwiseIdentity 82.6272863464273
+AverageNumOfExceptions 1.36085626911315
+MaxNumOfExceptions 8

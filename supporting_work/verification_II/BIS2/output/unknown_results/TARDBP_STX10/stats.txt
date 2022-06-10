@@ -1,0 +1,6 @@
+Job_name TARDBP_STX10_N
+SequenceLength 943
+NumberOfSequences 153
+AveragePairwiseIdentity 78.0158855229684
+AverageNumOfExceptions 1.3796394485684
+MaxNumOfExceptions 9

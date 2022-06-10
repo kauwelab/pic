@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:27:48 AM CEST
+End date: Fri 20 Aug 2021 12:29:52 AM CEST
+job name: CSTF1_SUN3_N
+jobID: QbA100DXDt
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

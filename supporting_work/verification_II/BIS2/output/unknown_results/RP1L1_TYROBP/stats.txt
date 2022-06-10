@@ -1,0 +1,6 @@
+Job_name RE1L1_TYROBP_N
+SequenceLength 6996
+NumberOfSequences 135
+AveragePairwiseIdentity 72.6110126579475
+AverageNumOfExceptions 2.23313321898228
+MaxNumOfExceptions 9

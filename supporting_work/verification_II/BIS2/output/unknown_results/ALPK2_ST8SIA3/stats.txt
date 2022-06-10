@@ -1,0 +1,6 @@
+Job_name ALPK2_ST8SIA3_N
+SequenceLength 5238
+NumberOfSequences 167
+AveragePairwiseIdentity 65.9592599396634
+AverageNumOfExceptions 2.17182130584192
+MaxNumOfExceptions 10

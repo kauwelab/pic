@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:04:46 PM CEST
+End date: Tue 27 Jul 2021 07:43:33 PM CEST
+job name: APP_PTK2
+jobID: 8ap4fnvh3r
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

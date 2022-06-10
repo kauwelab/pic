@@ -1,0 +1,6 @@
+Job_name APP_SPC24
+SequenceLength 1556
+NumberOfSequences 168
+AveragePairwiseIdentity 82.5671233735247
+AverageNumOfExceptions 1.44987146529563
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name CASS4_PRAM1_N
+SequenceLength 3183
+NumberOfSequences 152
+AveragePairwiseIdentity 69.9793211299091
+AverageNumOfExceptions 1.84605717876217
+MaxNumOfExceptions 9

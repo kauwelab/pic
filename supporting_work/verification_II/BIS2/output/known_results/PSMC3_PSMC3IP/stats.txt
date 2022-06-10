@@ -1,0 +1,6 @@
+Job_name PSMC3_PSMC3IP
+SequenceLength 1258
+NumberOfSequences 233
+AveragePairwiseIdentity 90.0094302487473
+AverageNumOfExceptions 1.28219395866455
+MaxNumOfExceptions 7

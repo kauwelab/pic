@@ -1,0 +1,6 @@
+Job_name PICALM_SRFBP1_N
+SequenceLength 2694
+NumberOfSequences 220
+AveragePairwiseIdentity 82.4627949569213
+AverageNumOfExceptions 1.64402375649592
+MaxNumOfExceptions 10

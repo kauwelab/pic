@@ -1,0 +1,27 @@
+#########################
+Parses through the BIS2 output to find if BIS2 found interacting clusters and if so, if any of those clusters contain at least one residue from each protein 
+Note that in order to run BIS2 on two proteins, those proteins must be concatenated end to end, so the presence of clusters is not enough of an indication of 
+interaction since the cluster in question may only contain residues from one of the proteins and not the other
+countInteractingB2.py
+
+#########################
+
+REQUIREMENTS
+
+countInteractingB2.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. pandas
+2. scipy
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+input and output locations are hard-coded
+python countInteractingB2.py
+

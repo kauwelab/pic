@@ -1,0 +1,6 @@
+Job_name PLCG2_MYB_N
+SequenceLength 3591
+NumberOfSequences 220
+AveragePairwiseIdentity 82.7829559600765
+AverageNumOfExceptions 1.54915065441381
+MaxNumOfExceptions 12

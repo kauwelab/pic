@@ -1,0 +1,6 @@
+Job_name SORL1_CNBP_N
+SequenceLength 4063
+NumberOfSequences 222
+AveragePairwiseIdentity 84.284192871009
+AverageNumOfExceptions 1.33718926901304
+MaxNumOfExceptions 9

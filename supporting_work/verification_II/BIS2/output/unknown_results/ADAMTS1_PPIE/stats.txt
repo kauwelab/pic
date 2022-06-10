@@ -1,0 +1,6 @@
+Job_name ADAMTS1_PPIE_N
+SequenceLength 2580
+NumberOfSequences 223
+AveragePairwiseIdentity 83.2968801526527
+AverageNumOfExceptions 1.43023255813953
+MaxNumOfExceptions 8

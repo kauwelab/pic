@@ -1,0 +1,7 @@
+Beginning date: Thu 19 Aug 2021 11:50:46 PM CEST
+End date: Thu 19 Aug 2021 11:53:49 PM CEST
+job name: ADAM10_PROKR2_N
+jobID: GvljVCZM0E
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

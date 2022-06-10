@@ -1,0 +1,6 @@
+Job_name SORL1_TIMP4_N
+SequenceLength 4182
+NumberOfSequences 222
+AveragePairwiseIdentity 82.6855627935891
+AverageNumOfExceptions 1.37422285987566
+MaxNumOfExceptions 7

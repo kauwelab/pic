@@ -1,0 +1,6 @@
+Job_name PLCG2_CSPG5_N
+SequenceLength 3439
+NumberOfSequences 178
+AveragePairwiseIdentity 78.6046042601503
+AverageNumOfExceptions 1.70340215178831
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name PSMC3_PSMC6
+SequenceLength 1333
+NumberOfSequences 238
+AveragePairwiseIdentity 94.0673712199964
+AverageNumOfExceptions 0.839459864966242
+MaxNumOfExceptions 7

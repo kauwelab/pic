@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:28:00 PM CEST
+End date: Tue 27 Jul 2021 07:36:40 PM CEST
+job name: POLR2G_RP1
+jobID: 4hBmq9YH9M
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

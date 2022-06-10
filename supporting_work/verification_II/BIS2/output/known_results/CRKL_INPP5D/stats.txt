@@ -1,0 +1,6 @@
+Job_name CRKL_INPP5D
+SequenceLength 2427
+NumberOfSequences 228
+AveragePairwiseIdentity 78.6118108064564
+AverageNumOfExceptions 1.70745776679028
+MaxNumOfExceptions 10

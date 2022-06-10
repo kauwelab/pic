@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:50:01 AM CEST
+End date: Fri 20 Aug 2021 01:00:10 AM CEST
+job name: PLCG2_CSDC2_N
+jobID: 9BFEexQ6mL
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

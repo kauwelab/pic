@@ -1,0 +1,6 @@
+Job_name PICALM_SOX2
+SequenceLength 1894
+NumberOfSequences 200
+AveragePairwiseIdentity 89.8981921221754
+AverageNumOfExceptions 1.14361140443506
+MaxNumOfExceptions 8

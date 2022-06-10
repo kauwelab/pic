@@ -1,0 +1,6 @@
+Job_name POLR2G_RP1
+SequenceLength 7518
+NumberOfSequences 134
+AveragePairwiseIdentity 74.7942162466233
+AverageNumOfExceptions 1.96887470071828
+MaxNumOfExceptions 10

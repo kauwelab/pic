@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:17:20 AM CEST
+End date: Fri 20 Aug 2021 02:30:15 AM CEST
+job name: RP1_TRPM3_N
+jobID: oeS8rwzwwT
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

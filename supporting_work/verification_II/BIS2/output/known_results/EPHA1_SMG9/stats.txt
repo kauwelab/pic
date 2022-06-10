@@ -1,0 +1,6 @@
+Job_name EPHA1_SMG9
+SequenceLength 2166
+NumberOfSequences 129
+AveragePairwiseIdentity 83.1985143460956
+AverageNumOfExceptions 1.1657433056325
+MaxNumOfExceptions 7

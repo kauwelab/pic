@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:43:47 PM CEST
+End date: Tue 27 Jul 2021 07:49:53 PM CEST
+job name: PSMC3_TXNRD2
+jobID: gRxpYMbehZ
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

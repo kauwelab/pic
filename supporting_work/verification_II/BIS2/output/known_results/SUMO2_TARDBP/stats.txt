@@ -1,0 +1,6 @@
+Job_name SUMO2_TARDBP
+SequenceLength 968
+NumberOfSequences 220
+AveragePairwiseIdentity 86.0953543701466
+AverageNumOfExceptions 1.43181818181818
+MaxNumOfExceptions 10

@@ -1,0 +1,6 @@
+Job_name ADAM10_PSEN1
+SequenceLength 2131
+NumberOfSequences 172
+AveragePairwiseIdentity 89.7592819257443
+AverageNumOfExceptions 1.27498826841858
+MaxNumOfExceptions 9

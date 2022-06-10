@@ -1,0 +1,6 @@
+Job_name PICALM_PRND_N
+SequenceLength 1087
+NumberOfSequences 123
+AveragePairwiseIdentity 86.3943045903378
+AverageNumOfExceptions 0.940202391904324
+MaxNumOfExceptions 7

@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:07:32 PM CEST
+End date: Tue 27 Jul 2021 07:15:20 PM CEST
+job name: ARL3_RP1L1
+jobID: S3wyBPRBbZ
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

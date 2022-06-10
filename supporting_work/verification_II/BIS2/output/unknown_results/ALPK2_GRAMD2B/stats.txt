@@ -1,0 +1,6 @@
+Job_name ALPK2_GRAMD2B_N
+SequenceLength 4561
+NumberOfSequences 120
+AveragePairwiseIdentity 57.7895345816469
+AverageNumOfExceptions 2.09778557333918
+MaxNumOfExceptions 9

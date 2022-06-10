@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:00:24 PM CEST
+End date: Tue 27 Jul 2021 07:10:29 PM CEST
+job name: APP_CTSD
+jobID: z8dbzQFnTW
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

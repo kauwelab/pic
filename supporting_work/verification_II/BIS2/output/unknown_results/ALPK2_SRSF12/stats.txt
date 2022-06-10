@@ -1,0 +1,6 @@
+Job_name ALPK2_SRSF12_N
+SequenceLength 3967
+NumberOfSequences 103
+AveragePairwiseIdentity 65.3219730970111
+AverageNumOfExceptions 1.91429291656163
+MaxNumOfExceptions 8

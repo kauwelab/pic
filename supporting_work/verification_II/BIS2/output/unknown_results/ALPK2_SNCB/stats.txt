@@ -1,0 +1,6 @@
+Job_name ALPK2_SNCB_N
+SequenceLength 5947
+NumberOfSequences 182
+AveragePairwiseIdentity 70.1278215600402
+AverageNumOfExceptions 2.1782411299815
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name CTNNB1_FERMT2
+SequenceLength 1954
+NumberOfSequences 224
+AveragePairwiseIdentity 93.7302840409538
+AverageNumOfExceptions 0.890992835209826
+MaxNumOfExceptions 7

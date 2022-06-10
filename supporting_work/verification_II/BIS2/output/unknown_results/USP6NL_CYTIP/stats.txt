@@ -1,0 +1,6 @@
+Job_name USP6NL_CYTIP_N
+SequenceLength 2028
+NumberOfSequences 220
+AveragePairwiseIdentity 72.130097685946
+AverageNumOfExceptions 1.96449704142012
+MaxNumOfExceptions 10

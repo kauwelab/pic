@@ -1,0 +1,6 @@
+Job_name CTDSP2_EPHA1
+SequenceLength 1992
+NumberOfSequences 124
+AveragePairwiseIdentity 83.4755886909822
+AverageNumOfExceptions 1.29668674698795
+MaxNumOfExceptions 7

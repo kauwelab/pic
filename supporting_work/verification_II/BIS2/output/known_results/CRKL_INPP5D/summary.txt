@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:11:51 PM CEST
+End date: Tue 27 Jul 2021 07:25:17 PM CEST
+job name: CRKL_INPP5D
+jobID: IQ1U7Rjvv3
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

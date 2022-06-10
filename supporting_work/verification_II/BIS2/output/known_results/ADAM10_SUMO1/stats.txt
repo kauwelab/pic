@@ -1,0 +1,6 @@
+Job_name ADAM10_SUMO1
+SequenceLength 1801
+NumberOfSequences 216
+AveragePairwiseIdentity 89.5887393404242
+AverageNumOfExceptions 1.43975569128262
+MaxNumOfExceptions 11

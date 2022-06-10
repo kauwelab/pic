@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:24:55 AM CEST
+End date: Fri 20 Aug 2021 01:33:07 AM CEST
+job name: RP1L1_HYI_N
+jobID: oalK2zWRXW
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

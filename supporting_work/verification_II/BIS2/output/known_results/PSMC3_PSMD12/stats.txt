@@ -1,0 +1,6 @@
+Job_name PSMC3_PSMD12
+SequenceLength 1405
+NumberOfSequences 235
+AveragePairwiseIdentity 93.0409605369839
+AverageNumOfExceptions 0.954448398576512
+MaxNumOfExceptions 8

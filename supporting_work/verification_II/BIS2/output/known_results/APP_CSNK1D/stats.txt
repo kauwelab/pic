@@ -1,0 +1,6 @@
+Job_name APP_CSNK1D
+SequenceLength 1915
+NumberOfSequences 208
+AveragePairwiseIdentity 88.6373444796651
+AverageNumOfExceptions 1.12793733681462
+MaxNumOfExceptions 7

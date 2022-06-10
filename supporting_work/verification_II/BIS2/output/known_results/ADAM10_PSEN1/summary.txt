@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 06:57:05 PM CEST
+End date: Tue 27 Jul 2021 07:04:42 PM CEST
+job name: ADAM10_PSEN1
+jobID: 6rK1TY45rx
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

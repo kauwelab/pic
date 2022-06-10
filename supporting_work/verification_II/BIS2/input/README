@@ -1,0 +1,26 @@
+#########################
+Concatenates two fastas to one another by header name, separating each sequence with a string of 50 X's. This allowed us to run protein pairs on BIS2.
+This script assumes that there are two groups of files to concatenate, unknown pairs and known pairs and that each pair is orgainised as follows: 
+known|uknown/<protname1>_<protname2>/<protname1>_<protname2> and known|uknown/<protname1>_<protname2>/<protname2>_<protname1> 
+concatFiles.py
+
+#########################
+
+REQUIREMENTS
+
+concatFiles.py uses python 3.7 in a Linux environment
+
+Python Libraries:
+1. Bio.SeqIO
+
+If any of these libraries are not in your current path, use the following command:
+pip3 install --user [library_name]
+
+
+##########################
+
+USAGE EXAMPLE
+
+we did not feel it was necessary to include example input on this repo
+python concatFiles.py
+

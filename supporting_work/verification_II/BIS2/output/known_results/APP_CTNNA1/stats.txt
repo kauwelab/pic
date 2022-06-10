@@ -1,0 +1,6 @@
+Job_name APP_CTNNA1
+SequenceLength 2115
+NumberOfSequences 209
+AveragePairwiseIdentity 87.6578146874896
+AverageNumOfExceptions 0.946572104018913
+MaxNumOfExceptions 8

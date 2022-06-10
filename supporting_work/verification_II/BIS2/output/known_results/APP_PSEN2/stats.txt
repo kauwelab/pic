@@ -1,0 +1,6 @@
+Job_name APP_PSEN2
+SequenceLength 2014
+NumberOfSequences 196
+AveragePairwiseIdentity 87.148297864712
+AverageNumOfExceptions 1.28947368421053
+MaxNumOfExceptions 7

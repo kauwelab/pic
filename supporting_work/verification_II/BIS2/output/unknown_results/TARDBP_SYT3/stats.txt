@@ -1,0 +1,6 @@
+Job_name TARDBP_SYT3_N
+SequenceLength 1527
+NumberOfSequences 178
+AveragePairwiseIdentity 78.7147496484194
+AverageNumOfExceptions 1.15717092337917
+MaxNumOfExceptions 8

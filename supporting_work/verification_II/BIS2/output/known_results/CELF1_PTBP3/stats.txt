@@ -1,0 +1,6 @@
+Job_name CELF1_PTBP3
+SequenceLength 2120
+NumberOfSequences 199
+AveragePairwiseIdentity 89.7768693859989
+AverageNumOfExceptions 1.25754716981132
+MaxNumOfExceptions 10

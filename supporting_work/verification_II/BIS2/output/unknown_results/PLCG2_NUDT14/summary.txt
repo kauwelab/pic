@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:57:49 AM CEST
+End date: Fri 20 Aug 2021 01:15:22 AM CEST
+job name: PLCG2_NUDT14_N
+jobID: MKM56qfcNE
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

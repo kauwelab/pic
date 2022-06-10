@@ -1,0 +1,6 @@
+Job_name ALPK2_TUBB1_N
+SequenceLength 5101
+NumberOfSequences 166
+AveragePairwiseIdentity 66.7856620114495
+AverageNumOfExceptions 2.10801803567928
+MaxNumOfExceptions 9

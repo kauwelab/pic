@@ -1,0 +1,6 @@
+Job_name GRB2_RP1L1
+SequenceLength 6850
+NumberOfSequences 179
+AveragePairwiseIdentity 71.5922369598449
+AverageNumOfExceptions 2.16875912408759
+MaxNumOfExceptions 9

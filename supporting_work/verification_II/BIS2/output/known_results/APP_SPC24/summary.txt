@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:05:13 PM CEST
+End date: Tue 27 Jul 2021 07:09:26 PM CEST
+job name: APP_SPC24
+jobID: jftPkiKBO0
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

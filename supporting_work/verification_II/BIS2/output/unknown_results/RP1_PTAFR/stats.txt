@@ -1,0 +1,6 @@
+Job_name RP1_PTAFR_N
+SequenceLength 7592
+NumberOfSequences 163
+AveragePairwiseIdentity 71.9438324958391
+AverageNumOfExceptions 1.93032139093783
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name ARL3_RP1L1
+SequenceLength 6605
+NumberOfSequences 162
+AveragePairwiseIdentity 70.6559542805689
+AverageNumOfExceptions 2.26146858440575
+MaxNumOfExceptions 10

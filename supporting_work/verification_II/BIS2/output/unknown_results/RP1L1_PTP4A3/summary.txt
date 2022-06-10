@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:28:58 AM CEST
+End date: Fri 20 Aug 2021 01:38:03 AM CEST
+job name: RP1L1_PTP4A3_N
+jobID: kBCjWthoEx
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

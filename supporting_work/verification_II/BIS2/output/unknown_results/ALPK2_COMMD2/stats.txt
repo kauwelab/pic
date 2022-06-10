@@ -1,0 +1,6 @@
+Job_name ALPK2_COMMD2_N
+SequenceLength 5050
+NumberOfSequences 197
+AveragePairwiseIdentity 64.9120142201722
+AverageNumOfExceptions 2.24970297029703
+MaxNumOfExceptions 9

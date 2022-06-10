@@ -1,0 +1,6 @@
+Job_name PLCG2_PPM1B_N
+SequenceLength 2832
+NumberOfSequences 234
+AveragePairwiseIdentity 84.1103236303104
+AverageNumOfExceptions 1.46786723163842
+MaxNumOfExceptions 8

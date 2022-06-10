@@ -1,0 +1,6 @@
+Job_name RP1_TMEM205_N
+SequenceLength 7452
+NumberOfSequences 150
+AveragePairwiseIdentity 73.7291888068724
+AverageNumOfExceptions 1.81065485775631
+MaxNumOfExceptions 10

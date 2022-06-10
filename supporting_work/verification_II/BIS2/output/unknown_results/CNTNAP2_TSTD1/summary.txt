@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:18:11 AM CEST
+End date: Fri 20 Aug 2021 12:34:50 AM CEST
+job name: CNTNAP2_TSTD1_N
+jobID: wG1Q4vysT2
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

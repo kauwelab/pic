@@ -1,0 +1,6 @@
+Job_name APP_CRYAB
+SequenceLength 1340
+NumberOfSequences 199
+AveragePairwiseIdentity 87.9244708390437
+AverageNumOfExceptions 1.14850746268657
+MaxNumOfExceptions 6

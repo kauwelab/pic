@@ -1,0 +1,6 @@
+Job_name ADAM10_PROKR2_N
+SequenceLength 1947
+NumberOfSequences 109
+AveragePairwiseIdentity 92.6670338555484
+AverageNumOfExceptions 1.3025166923472
+MaxNumOfExceptions 8

@@ -1,0 +1,6 @@
+Job_name ADAMTS1_SUSD2_N
+SequenceLength 3284
+NumberOfSequences 178
+AveragePairwiseIdentity 78.1989653305793
+AverageNumOfExceptions 1.53654080389769
+MaxNumOfExceptions 9

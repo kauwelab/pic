@@ -1,0 +1,6 @@
+Job_name ADAM10_PXN
+SequenceLength 3565
+NumberOfSequences 188
+AveragePairwiseIdentity 84.5818269904833
+AverageNumOfExceptions 1.90771388499299
+MaxNumOfExceptions 10

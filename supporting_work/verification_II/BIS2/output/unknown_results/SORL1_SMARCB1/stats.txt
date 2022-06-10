@@ -1,0 +1,6 @@
+Job_name SORL1_SMARCB1_N
+SequenceLength 4279
+NumberOfSequences 200
+AveragePairwiseIdentity 86.1872202799458
+AverageNumOfExceptions 1.27646646412713
+MaxNumOfExceptions 8

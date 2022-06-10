@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:08:15 AM CEST
+End date: Fri 20 Aug 2021 12:16:59 AM CEST
+job name: APP_SULT4A1_N
+jobID: ItfSPnRPfL
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

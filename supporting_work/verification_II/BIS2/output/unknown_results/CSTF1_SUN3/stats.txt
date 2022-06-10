@@ -1,0 +1,6 @@
+Job_name CSTF1_SUN3_N
+SequenceLength 1306
+NumberOfSequences 127
+AveragePairwiseIdentity 86.0163249119154
+AverageNumOfExceptions 1.34456355283308
+MaxNumOfExceptions 9

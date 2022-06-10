@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:18:24 PM CEST
+End date: Tue 27 Jul 2021 07:25:32 PM CEST
+job name: FERMT2_SOX2
+jobID: f3EAJscEQS
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:37:04 AM CEST
+End date: Fri 20 Aug 2021 01:46:21 AM CEST
+job name: RP1L1_TMEM30A_N
+jobID: YGTKemZX8q
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

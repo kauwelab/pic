@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 06:59:59 PM CEST
+End date: Tue 27 Jul 2021 07:26:41 PM CEST
+job name: APP_CTNND1
+jobID: Erm2zKeNu4
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

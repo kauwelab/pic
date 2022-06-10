@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:15:09 PM CEST
+End date: Tue 27 Jul 2021 07:28:44 PM CEST
+job name: CTDSP2_EPHA1
+jobID: ARLbPAe4l8
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

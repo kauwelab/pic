@@ -1,0 +1,6 @@
+Job_name RP1L1_AP4B1_N
+SequenceLength 8167
+NumberOfSequences 172
+AveragePairwiseIdentity 71.8506073183201
+AverageNumOfExceptions 2.25737724990817
+MaxNumOfExceptions 10

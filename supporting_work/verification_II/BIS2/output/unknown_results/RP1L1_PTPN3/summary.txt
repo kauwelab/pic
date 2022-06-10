@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:30:15 AM CEST
+End date: Fri 20 Aug 2021 02:00:40 AM CEST
+job name: RP1L1_PTPN3_N
+jobID: 5O5R0jLPAr
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

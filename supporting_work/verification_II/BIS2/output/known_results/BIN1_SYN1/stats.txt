@@ -1,0 +1,6 @@
+Job_name BIN1_SYN1
+SequenceLength 2292
+NumberOfSequences 111
+AveragePairwiseIdentity 83.1208219166334
+AverageNumOfExceptions 1.43499127399651
+MaxNumOfExceptions 8

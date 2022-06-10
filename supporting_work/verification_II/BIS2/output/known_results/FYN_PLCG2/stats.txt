@@ -1,0 +1,6 @@
+Job_name FYN_PLCG2
+SequenceLength 2915
+NumberOfSequences 219
+AveragePairwiseIdentity 86.2310375673484
+AverageNumOfExceptions 1.47204116638079
+MaxNumOfExceptions 8

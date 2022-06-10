@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:06:38 PM CEST
+End date: Tue 27 Jul 2021 07:15:09 PM CEST
+job name: APP_SYVN1
+jobID: C9lGAkMCGU
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

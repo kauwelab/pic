@@ -1,0 +1,7 @@
+Beginning date: Tue 27 Jul 2021 07:26:56 PM CEST
+End date: Tue 27 Jul 2021 07:49:33 PM CEST
+job name: PLCG2_SRC
+jobID: ptQpG7UCdQ
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

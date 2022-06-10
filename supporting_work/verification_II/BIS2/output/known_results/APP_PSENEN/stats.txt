@@ -1,0 +1,6 @@
+Job_name APP_PSENEN
+SequenceLength 1286
+NumberOfSequences 164
+AveragePairwiseIdentity 86.0824300836193
+AverageNumOfExceptions 1.22006220839813
+MaxNumOfExceptions 8

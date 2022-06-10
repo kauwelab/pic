@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 01:14:35 AM CEST
+End date: Fri 20 Aug 2021 01:22:32 AM CEST
+job name: RP1_RNF222_N
+jobID: RhNJJnJ6Z9
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1

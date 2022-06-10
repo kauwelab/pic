@@ -1,0 +1,6 @@
+Job_name CASS4_PNPLA1_N
+SequenceLength 2477
+NumberOfSequences 158
+AveragePairwiseIdentity 69.0972572922851
+AverageNumOfExceptions 2.06742026645135
+MaxNumOfExceptions 9

@@ -1,0 +1,6 @@
+Job_name CNTNAP2_SPRY4_N
+SequenceLength 2572
+NumberOfSequences 190
+AveragePairwiseIdentity 77.6659031369683
+AverageNumOfExceptions 1.41368584758942
+MaxNumOfExceptions 10

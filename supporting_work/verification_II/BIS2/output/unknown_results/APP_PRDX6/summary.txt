@@ -1,0 +1,7 @@
+Beginning date: Fri 20 Aug 2021 12:07:40 AM CEST
+End date: Fri 20 Aug 2021 12:14:27 AM CEST
+job name: APP_PRDX6_N
+jobID: 6zbj5pa5hX
+Only hits: y
+Alphabet Reduction: None
+Dimension: 1
