@@ -61,10 +61,11 @@ cd = [abs(x) for x in cd]
 data['cohensD'] = cd
 
 statsOfInterest += ["meanQuotient", "diffAboveThreshold", "negLogTtestP", "negLogThresholdP"]
+statToTitle = {"negLogTtest": "Negative Log p-values For a Two-Sample t-test Between Groups at Different Filter Combinations"}
 outfile = open(outLoc + "bestSpecsForEachStat.txt", 'w')
 for stat in statsOfInterest:
 	
-	pivot = data.pivot(index='percentAboveRandom', columns='minPx', values=stat)
+	pivot = data.pivot(index='Percent Above Random', columns='Minimum pX(x) Value x 100', values=stat)
 	mask = pivot.isnull()
 	if "Threshold" in stat or 'threshold' in stat:
 		pivot2 = data.pivot(index='percentAboveRandom', columns='minPx', values='bestThreshold')
@@ -74,7 +75,10 @@ for stat in statsOfInterest:
 	else:
 		annot=False
 		hm = sns.heatmap(pivot, annot=annot, cbar=True, mask=mask, annot_kws={'fontsize':7})
-	hm.set_title(stat)
+	if stat= "negLogTtest"):
+		hm.set_title(statToTitle["negLogTtest"]
+	else:
+		hm.set_title(stat)
 	fig = hm.get_figure()
 	fig.savefig(outLoc + stat + ".png")
 	plt.close()

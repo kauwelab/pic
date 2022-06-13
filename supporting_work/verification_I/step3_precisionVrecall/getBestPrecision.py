@@ -73,7 +73,7 @@ def runOne(par, mpx, caseLoc, controlLoc, outLoc):
 	plt.plot(recalls, precisions, label="Data")
 	plt.xlabel("Recall")
 	plt.ylabel("Precision")
-	plt.suptitle("Precision vs Recall at Different Thresholds")
+	plt.suptitle("Precision vs Recall at Different Thresholds When Percent Above Random is " +str(par) + " and Min pX(x) is " + str(mpx))
 	plt.plot([0,1], [ycoord,ycoord], linestyle="--", label="Baseline")
 	plt.legend()
 	plt.savefig(outLoc + "precision_v_recall.png")
@@ -85,7 +85,7 @@ def runOne(par, mpx, caseLoc, controlLoc, outLoc):
 	plt.plot(falsePosRates, truePosRates, label="Data")
 	plt.xlabel("False Positive Rate")
 	plt.ylabel("True Positive Rate")
-	plt.suptitle("ROC Curve")
+	plt.suptitle("ROC Curve When Percent Above Random is " + str(par) + " and Min pX(x) is " + str(mpx))
 	plt.plot([0,1],[0,1], linestyle="--", label="Baseline")
 	plt.legend()
 	auc = np.trapz(truePosRates, falsePosRates)
@@ -154,7 +154,7 @@ def runAll(caseLoc, controlLoc, outLoc):
 	
 	columns=["percentAboveRandom", "minPx", "Precision", "AUC"] 
 	df = pd.DataFrame(list(zip(PARs, MPXs, precision, aucs)), columns=columns) 
-	pivot = df.pivot(index="percentAboveRandom", columns="minPx", values="Precision") 
+	pivot = df.pivot(index="Percent Above Random", columns="Minimum pX(x) Values x 100", values="Precision") 
 	mask = pivot.isnull()
 	hm = sns.heatmap(pivot, annot=False, cbar=True, mask=mask)
 	hm.set_title("Best Precisions")
@@ -163,7 +163,7 @@ def runAll(caseLoc, controlLoc, outLoc):
 	fig.savefig(outLoc + "Precision.png")
 	plt.close()
 
-	pivot = df.pivot(index="percentAboveRandom", columns="minPx", values="AUC")
+	pivot = df.pivot(index="Percent Above Random", columns="Minimum pX(x) Values x 100", values="AUC")
 	mask = pivot.isnull()
 	hm = sns.heatmap(pivot, annot=False, cbar=True, mask=mask)
 	hm.set_title("Best AUCs")
